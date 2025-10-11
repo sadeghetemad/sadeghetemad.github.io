@@ -1,7 +1,7 @@
 # 👋 Hi, I'm **Sadegh Etemad**
 
 🎯 **Senior Data Scientist | Machine Learning Engineer | AI Team Lead**  
-📍 Middlesbrough, United Kingdom  
+📍 United Kingdom  
 📧 Sadegh.Etemad@gmail.com  
 
 ---
