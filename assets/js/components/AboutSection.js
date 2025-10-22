@@ -302,7 +302,7 @@ const AboutSection = () => {
                 'div',
                 { className: 'flex flex-wrap gap-3' },
                 [
-                  'English (Fluent - B2)', 'Persian (Native)''
+                  'English (Fluent - B2)', 'Persian (Native)'
                 ].map(area => (
                   React.createElement(
                     'span',
