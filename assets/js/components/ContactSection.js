@@ -57,10 +57,10 @@ const ContactSection = () => {
             React.createElement(
               'a',
               { 
-                href: 'mailto:sadeghetemad.aydin@gmail.com',
+                href: 'mailto:sadegh.etemad@gmail.com',
                 className: 'text-lg text-blue-600 dark:text-blue-400 hover:text-yellow-500 dark:hover:text-yellow-400 hover:underline'
               },
-              'sadeghetemad.aydin@gmail.com'
+              'sadegh.etemad@gmail.com'
             )
           ),
           // Social Connect
@@ -111,76 +111,11 @@ const ContactSection = () => {
                 React.createElement('i', { className: 'fab fa-linkedin text-2xl mb-1' }),
                 React.createElement('span', { className: 'text-xs' }, 'LinkedIn')
               ),
-              // Twitter
-              React.createElement(
-                'a', 
-                { 
-                  href: 'https://twitter.com/sadeghetemad.aydin',
-                  target: '_blank',
-                  rel: 'noopener noreferrer',
-                  className: 'flex flex-col items-center text-gray-700 hover:text-yellow-500 dark:text-gray-400 dark:hover:text-yellow-400 transition-colors hover:scale-110 pulse',
-                  title: 'Twitter'
-                },
-                React.createElement('i', { className: 'fab fa-twitter text-2xl mb-1' }),
-                React.createElement('span', { className: 'text-xs' }, 'Twitter')
-              ),
-              // Medium
-              React.createElement(
-                'a', 
-                { 
-                  href: 'https://medium.com/@sadeghetemad.aydin',
-                  target: '_blank',
-                  rel: 'noopener noreferrer',
-                  className: 'flex flex-col items-center text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors hover:scale-110 pulse',
-                  title: 'Medium'
-                },
-                React.createElement('i', { className: 'fab fa-medium text-2xl mb-1' }),
-                React.createElement('span', { className: 'text-xs' }, 'Medium')
-              ),
-              // Reddit
-              React.createElement(
-                'a', 
-                { 
-                  href: 'https://www.reddit.com/user/sadeghetemad_aydin/',
-                  target: '_blank',
-                  rel: 'noopener noreferrer',
-                  className: 'flex flex-col items-center text-gray-700 hover:text-yellow-500 dark:text-gray-400 dark:hover:text-yellow-400 transition-colors hover:scale-110 pulse',
-                  title: 'Reddit'
-                },
-                React.createElement('i', { className: 'fab fa-reddit text-2xl mb-1' }),
-                React.createElement('span', { className: 'text-xs' }, 'Reddit')
-              ),
-              // Stack Overflow
-              React.createElement(
-                'a', 
-                { 
-                  href: 'https://stackoverflow.com/users/5637416/aydin-sadeghetemad',
-                  target: '_blank',
-                  rel: 'noopener noreferrer',
-                  className: 'flex flex-col items-center text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors hover:scale-110 pulse',
-                  title: 'Stack Overflow'
-                },
-                React.createElement('i', { className: 'fab fa-stack-overflow text-2xl mb-1' }),
-                React.createElement('span', { className: 'text-xs' }, 'Stack OF')
-              ),
-              // Kaggle
-              React.createElement(
-                'a', 
-                { 
-                  href: 'https://www.kaggle.com/sadeghetemad',
-                  target: '_blank',
-                  rel: 'noopener noreferrer',
-                  className: 'flex flex-col items-center text-gray-700 hover:text-yellow-500 dark:text-gray-400 dark:hover:text-yellow-400 transition-colors hover:scale-110 pulse',
-                  title: 'Kaggle'
-                },
-                React.createElement('i', { className: 'fab fa-kaggle text-2xl mb-1' }),
-                React.createElement('span', { className: 'text-xs' }, 'Kaggle')
-              ),
               // ResearchGate
               React.createElement(
                 'a', 
                 { 
-                  href: 'https://www.researchgate.net/profile/Sadegh-Abedinia',
+                  href: 'https://www.researchgate.net/profile/Sadegh-Etemad-2',
                   target: '_blank',
                   rel: 'noopener noreferrer',
                   className: 'flex flex-col items-center text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors hover:scale-110 pulse',
