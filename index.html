@@ -4,29 +4,96 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sadegh Etemad | Senior Data Scientist & Machine Learning Engineer</title>
-    <meta name="description" content="Senior Data Scientist and AI Team Lead with expertise in Multimodal AI, Deep Learning, and Biomedical Research. Currently at Teesside University, Middlesbrough, UK." />
-    <link rel="icon" type="image/png" href="./assets/images/profile.jpg" />
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+    
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Sadegh Etemad | Senior Data Scientist & Machine Learning Engineer">
+    <meta name="description" content="Researcher specializing in multimodal AI, deep learning, and biomedical data integration engineering with expertise in uncertainty-aware algorithms and high-scale ML systems." />
+    <meta name="keywords" content="Machine Learning Research, Semi-Supervised Learning, Reinforcement Learning, Multimodal AI & Biomedical Research, AI, , Sadegh Etemad">
+    <meta name="author" content="Sadegh Etemad">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sadeghetemad.github.io/">
+    <meta property="og:title" content="Sadegh Etemad | Senior Data Scientist & Machine Learning Engineer">
+    <meta property="og:description" content="Researcher specializing in multimodal AI, deep learning, and biomedical data integration with expertise in uncertainty-aware algorithms and high-scale ML systems.">
+    <meta property="og:image" content="./assets/images/profile.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://sadeghetemad.github.io/">
+    <meta property="twitter:title" content="Sadegh Etemad | Senior Data Scientist & Machine Learning Engineer">
+    <meta property="twitter:description" content="Researcher specializing in multimodal AI, deep learning, and biomedical data integration with expertise in uncertainty-aware algorithms and high-scale ML systems.">
+    <meta property="twitter:image" content="./assets/images/profile.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2250%22 fill=%22%233b82f6%22></rect><path fill=%22%23ffffff%22 d=%22M30 40 L42 40 L42 70 L30 70 M55 40 L67 40 L67 70 L55 70 M30 55 L67 55%22></path></svg>" />
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <!-- React + Framer (CDNs) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    
+    <!-- Scripts -->
     <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
     <script src="https://unpkg.com/framer-motion@10.12.16/dist/framer-motion.js" crossorigin></script>
+    
+
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KG3VLJEBBN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-KG3VLJEBBN');      
+    </script>
+
+    
   </head>
   <body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300">
+    <!-- Page preloader -->
+    <div id="preloader" class="fixed inset-0 bg-white dark:bg-gray-900 z-50 flex items-center justify-center">
+      <div class="w-16 h-16 border-4 border-blue-600 border-t-transparent rounded-full animate-spin"></div>
+    </div>
+    
+    <!-- Main content -->
     <div id="root"></div>
-
-    <!-- Components (vanilla JS modules producing the HTML sections) -->
-    <script type="module" src="./assets/js/components/Header.js"></script>
-    <script type="module" src="./assets/js/components/HeroSection.js"></script>
-    <script type="module" src="./assets/js/components/AboutSection.js"></script>
-    <script type="module" src="./assets/js/components/ResearchSection.js"></script>
-    <script type="module" src="./assets/js/components/ProjectsSection.js"></script>
-    <script type="module" src="./assets/js/components/BlogSection.js"></script>
-    <script type="module" src="./assets/js/components/SocialSection.js"></script>
-    <script type="module" src="./assets/js/components/ContactSection.js"></script>
-    <script type="module" src="./assets/js/components/Footer.js"></script>
-    <script type="module" src="./assets/js/main.js"></script>
+    
+    <!-- Component Scripts -->
+    <script src="./assets/js/components/Header.js"></script>
+    <script src="./assets/js/components/HeroSection.js"></script>
+    <script src="./assets/js/components/AboutSection.js"></script>
+    <script src="./assets/js/components/ProjectsSection.js"></script>
+    <script src="./assets/js/components/BlogSection.js"></script>
+    <script src="./assets/js/components/ResearchSection.js"></script>
+    <script src="./assets/js/components/SocialSection.js"></script>
+    <script src="./assets/js/components/ContactSection.js"></script>
+    <script src="./assets/js/components/Footer.js"></script>
+    <script src="./assets/js/main.js"></script>
+    
+    <!-- Data Fetchers -->
+    <script src="./assets/js/medium-fetcher.js"></script>
+    <script src="./assets/js/scholar-fetcher.js"></script>
+    <script src="./assets/js/twitter-fetcher.js"></script>
+    
+    <!-- Dark mode initialization -->
+    <script>
+      // Check for dark mode preference
+      if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
+      
+      // Remove preloader after page loads
+      window.addEventListener('load', function() {
+        const preloader = document.getElementById('preloader');
+        preloader.classList.add('opacity-0');
+        setTimeout(() => {
+          preloader.style.display = 'none';
+        }, 500);
+      });
+    </script>
   </body>
 </html>
