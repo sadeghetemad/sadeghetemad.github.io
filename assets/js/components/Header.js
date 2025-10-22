@@ -82,24 +82,6 @@ const Header = ({ darkMode, toggleDarkMode }) => {
           })
         ),
         React.createElement('a', { 
-          href: '#projects', 
-          className: 'hover:text-blue-600 dark:hover:text-blue-400 transition-colors relative group'
-        }, 
-          'Projects',
-          React.createElement('span', { 
-            className: 'absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 dark:bg-blue-400 transition-all duration-300 group-hover:w-full'
-          })
-        ),
-        React.createElement('a', { 
-          href: '#blog', 
-          className: 'hover:text-blue-600 dark:hover:text-blue-400 transition-colors relative group'
-        }, 
-          'Blog',
-          React.createElement('span', { 
-            className: 'absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 dark:bg-blue-400 transition-all duration-300 group-hover:w-full'
-          })
-        ),
-        React.createElement('a', { 
           href: '#research', 
           className: 'hover:text-blue-600 dark:hover:text-blue-400 transition-colors relative group'
         }, 
