@@ -193,12 +193,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const titleRotator = document.getElementById('title-rotator');
   if (titleRotator) {
     const titles = [
-      'Machine Learning Researcher',
+      'Senior Machine Learning Engineer',
+      'Senior Data Scientist',
       'Multimodal AI & Biomedical Research Engineer',
-      'Research Assistant',
-      'Backend Developer',
-      'Software Engineer',
-      'ML Engineer'
+      'AI Team Lead'
     ];
     
     let currentIndex = 0;
