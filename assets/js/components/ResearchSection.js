@@ -14,14 +14,8 @@ const ResearchSection = () => {
       {
         name: "ResearchGate",
         icon: "fab fa-researchgate",
-        url: "https://www.researchgate.net/profile/Sadegh-Abedinia",
+        url: "https://www.researchgate.net/profile/Sadegh-Etemad-2",
         color: "bg-green-600 dark:bg-green-700"
-      },
-      {
-        name: "Kaggle",
-        icon: "fab fa-kaggle",
-        url: "https://www.kaggle.com/sadeghetemad",
-        color: "bg-blue-500 dark:bg-blue-600"
       }
     ];
 
@@ -73,7 +67,7 @@ const ResearchSection = () => {
         React.createElement(
           'p',
           { className: 'max-w-2xl mx-auto text-lg text-gray-700 dark:text-gray-300' },
-          'My research focuses on data-efficient, probabilistically grounded machine learning methods, with particular emphasis on semi-supervised learning and reinforcement learning for mission-critical domains.'
+          'My research focuses on multimodal and data-efficient machine learning for computational biology, integrating deep learning, probabilistic modeling, and representation learning to uncover complex biological mechanisms and actionable insights.'
         )
       ),
       React.createElement(
@@ -87,17 +81,17 @@ const ResearchSection = () => {
             'h3',
             { className: 'text-xl font-bold text-gray-900 dark:text-white mb-2 flex items-center' },
             React.createElement('i', { className: 'fas fa-file-alt text-blue-500 mr-3' }),
-            'Building Semi-Supervised Decision Trees with Semi-CART Algorithm'
+            'Clustering of Urban Traffic Patterns by K-Means and Dynamic Time Warping: Case Study'
           ),
           React.createElement(
             'p',
             { className: 'text-gray-500 dark:text-gray-400 text-sm mb-2' },
-            'A Abedinia, V Seydi'
+            'S Etemad, M Mosayebi'
           ),
           React.createElement(
             'p',
             { className: 'text-gray-500 dark:text-gray-400 text-sm mb-4' },
-            'International Journal of Machine Learning and Cybernetics 15 (10), 4493-4510, 2024'
+            'International Conference on Artificial Intelligence and Smart Vehicle (ICAISV) - 2023'
           ),
           React.createElement(
             'div',
@@ -105,18 +99,18 @@ const ResearchSection = () => {
             React.createElement(
               'span',
               { className: 'bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 px-3 py-1 rounded-full text-sm font-medium' },
-              'Citations: 11'
+              'Citations: -'
             ),
             React.createElement(
               'span',
               { className: 'text-gray-500 dark:text-gray-400 text-sm' },
-              '2024'
+              '2023'
             )
           ),
           React.createElement(
             'p',
             { className: 'text-gray-700 dark:text-gray-300 mb-4' },
-            'This research introduces a novel approach to decision tree algorithms that effectively leverages both labeled and unlabeled data, resulting in improved classification accuracy in semi-supervised learning contexts.'
+            'This paper presents a K-Means and Dynamic Time Warping–based time series clustering method to identify similar urban traffic patterns from driver speed data, enabling speed estimation for missing segments and detection of key road segments for mapping applications.'
           ),
           React.createElement(
             'div',
@@ -124,7 +118,7 @@ const ResearchSection = () => {
             React.createElement(
               'a',
               {
-                href: 'https://link.springer.com/article/10.1007/s13042-024-02161-z',
+                href: 'https://arxiv.org/abs/2309.09830',
                 target: '_blank',
                 rel: 'noopener noreferrer',
                 className: 'text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center text-sm font-medium'
@@ -142,36 +136,116 @@ const ResearchSection = () => {
             'h3',
             { className: 'text-xl font-bold text-gray-900 dark:text-white mb-2 flex items-center' },
             React.createElement('i', { className: 'fas fa-file-alt text-blue-500 mr-3' }),
-            'Enhancing Classification with Semi-Supervised Deep Learning Using Distance-Based Sample Weights'
+            'SherVine: A graphical dependency modeling for shearlet transform and its application in image quality assessment'
           ),
           React.createElement(
             'p',
             { className: 'text-gray-500 dark:text-gray-400 text-sm mb-2' },
-            'A Abedinia, S Tabakhi, V Seydi'
+            'S Etemad, M Amirmazlaghani'
           ),
           React.createElement(
             'p',
             { className: 'text-gray-500 dark:text-gray-400 text-sm mb-4' },
-            '10th International Conference on Machine Learning Technologies (ICMLT 2025), Helsinki, Finland'
+            'Expert Systems with Applications'
           ),
           React.createElement(
             'div',
             { className: 'flex justify-between items-center mb-4' },
             React.createElement(
               'span',
-              { className: 'bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200 px-3 py-1 rounded-full text-sm font-medium' },
-              'Accepted for oral presentation'
+              { className: 'bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 px-3 py-1 rounded-full text-sm font-medium' },
+              'Citations: 2'
             ),
             React.createElement(
               'span',
               { className: 'text-gray-500 dark:text-gray-400 text-sm' },
-              '2025'
+              '2023'
             )
           ),
           React.createElement(
             'p',
             { className: 'text-gray-700 dark:text-gray-300 mb-4' },
-            'This research introduces novel distance-based weighting techniques for enhancing deep learning models in semi-supervised contexts, improving classification accuracy with limited labeled data.'
+            'This work introduces SherVine, a probabilistic graphical model built on the vine copula framework to capture and analyze dependency structures in shearlet transform coefficients'
+          )
+        ),
+        // Third publication
+        React.createElement(
+          'div',
+          { className: 'col-span-full bg-white dark:bg-gray-900 rounded-lg shadow-md p-6 mb-6 fade-in' },
+          React.createElement(
+            'h3',
+            { className: 'text-xl font-bold text-gray-900 dark:text-white mb-2 flex items-center' },
+            React.createElement('i', { className: 'fas fa-file-alt text-blue-500 mr-3' }),
+            'Color texture image retrieval based on Copula multivariate modeling in the Shearlet domain'
+          ),
+          React.createElement(
+            'p',
+            { className: 'text-gray-500 dark:text-gray-400 text-sm mb-2' },
+            'S Etemad, M Amirmazlaghani'
+          ),
+          React.createElement(
+            'p',
+            { className: 'text-gray-500 dark:text-gray-400 text-sm mb-4' },
+            'Engineering Applications of Artificial Intelligence'
+          ),
+          React.createElement(
+            'div',
+            { className: 'flex justify-between items-center mb-4' },
+            React.createElement(
+              'span',
+              { className: 'bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 px-3 py-1 rounded-full text-sm font-medium' },
+              'Citations: 18'
+            ),
+            React.createElement(
+              'span',
+              { className: 'text-gray-500 dark:text-gray-400 text-sm' },
+              '2021'
+            )
+          ),
+          React.createElement(
+            'p',
+            { className: 'text-gray-700 dark:text-gray-300 mb-4' },
+            'This paper proposes a color-texture image retrieval framework using the shearlet transform combined with a multivariate copula model to effectively represent and retrieve textured images across color channels.'
+          )
+        ),
+        // Fourth publication
+        React.createElement(
+          'div',
+          { className: 'col-span-full bg-white dark:bg-gray-900 rounded-lg shadow-md p-6 mb-6 fade-in' },
+          React.createElement(
+            'h3',
+            { className: 'text-xl font-bold text-gray-900 dark:text-white mb-2 flex items-center' },
+            React.createElement('i', { className: 'fas fa-file-alt text-blue-500 mr-3' }),
+            'Customer Segmentation and Strategy Development Based on User Behavior Analysis, RFM Model and Data Mining Techniques: A Case Study'
+          ),
+          React.createElement(
+            'p',
+            { className: 'text-gray-500 dark:text-gray-400 text-sm mb-2' },
+            'S Etemad, M Tavakoli'
+          ),
+          React.createElement(
+            'p',
+            { className: 'text-gray-500 dark:text-gray-400 text-sm mb-4' },
+            'IEEE 15th International Conference on e-Business Engineering (ICEBE)'
+          ),
+          React.createElement(
+            'div',
+            { className: 'flex justify-between items-center mb-4' },
+            React.createElement(
+              'span',
+              { className: 'bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 px-3 py-1 rounded-full text-sm font-medium' },
+              'Citations: 104'
+            ),
+            React.createElement(
+              'span',
+              { className: 'text-gray-500 dark:text-gray-400 text-sm' },
+              '2018'
+            )
+          ),
+          React.createElement(
+            'p',
+            { className: 'text-gray-700 dark:text-gray-300 mb-4' },
+            'This paper introduces an enhanced **R+FM customer segmentation model** that adapts to business dynamics and clusters users via **K-Means**, applied to Digikala’s e-commerce data, showing improved purchase frequency and basket value compared to the company’s previous RFM-based quantile method.'
           )
         ),
         // Research interests section
@@ -187,7 +261,7 @@ const ResearchSection = () => {
           React.createElement(
             'p',
             { className: 'text-gray-700 dark:text-gray-300 mb-4' },
-            'My research focuses on developing interpretable, uncertainty-aware algorithms that learn effectively from scarce or weak labels. I also seek to integrate reinforcement learning with causal inference to guarantee robust decision-making under distributional shift.'
+            'My research focuses on developing scalable and data-efficient machine learning systems that bridge multimodal learning, representation learning, and reinforcement learning. I aim to design interpretable AI models that integrate biological insights and real-world dynamics, enabling robust decision-making and knowledge discovery across domains such as computational biology, healthcare, and intelligent systems.'
           ),
           React.createElement(
             'div',
@@ -198,14 +272,14 @@ const ResearchSection = () => {
               React.createElement(
                 'h4',
                 { className: 'font-semibold text-gray-900 dark:text-white mb-2' },
-                'Semi-Supervised Learning'
+                'Multimodal & Representation Learning'
               ),
               React.createElement(
                 'ul',
                 { className: 'list-disc list-inside text-gray-700 dark:text-gray-300 space-y-1' },
-                React.createElement('li', null, 'Weighted decision tree algorithms'),
-                React.createElement('li', null, 'Distance-based sample weighting'),
-                React.createElement('li', null, 'XGBoost optimizations for limited labels')
+                React.createElement('li', null, 'Deep representation learning for biological and behavioral data'),
+                React.createElement('li', null, 'Self-supervised and contrastive multimodal learning'),
+                React.createElement('li', null, 'Cross-domain feature fusion and alignment')
               )
             ),
             React.createElement(
@@ -214,14 +288,14 @@ const ResearchSection = () => {
               React.createElement(
                 'h4',
                 { className: 'font-semibold text-gray-900 dark:text-white mb-2' },
-                'Neural Networks & Reinforcement Learning'
+                'Applied AI & Computational Biology'
               ),
               React.createElement(
                 'ul',
                 { className: 'list-disc list-inside text-gray-700 dark:text-gray-300 space-y-1' },
-                React.createElement('li', null, 'Causal reinforcement learning'),
-                React.createElement('li', null, 'Semi-supervised DeepLearning'),
-                React.createElement('li', null, 'Multi-modal decision making')
+                React.createElement('li', null, 'Spatial transcriptomics and metabolic modeling'),
+                React.createElement('li', null, 'Graph-based learning for cell–cell communication and omics integration'),
+                React.createElement('li', null, 'AI-driven data mining and intelligent healthcare systems')
               )
             )
           )
