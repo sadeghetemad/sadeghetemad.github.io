@@ -63,7 +63,7 @@ const Header = ({ darkMode, toggleDarkMode }) => {
             React.createElement(
               'p',
               { className: 'text-xs text-gray-600 dark:text-gray-400 hidden sm:block' },
-              'ML Researcher & Multimodal AI & Biomedical Research Engineer'
+              'Machine Learning Engineer'
             )
           )
         )
@@ -127,73 +127,18 @@ const Header = ({ darkMode, toggleDarkMode }) => {
           React.createElement(
             'a',
             { 
-              href: 'https://www.linkedin.com/in/aydin-sadeghetemad-96b2276b/',
+              href: 'https://www.linkedin.com/in/sadegh-etemad/',
               target: '_blank',
               rel: 'noopener noreferrer',
               className: 'text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors'
             },
             React.createElement('i', { className: 'fab fa-linkedin' })
           ),
-          // X (formerly Twitter)
-          React.createElement(
-            'a',
-            { 
-              href: 'https://x.com/sadeghetemad_aydin',
-              target: '_blank',
-              rel: 'noopener noreferrer',
-              className: 'text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors'
-            },
-            React.createElement('i', { className: 'fab fa-twitter' })
-          ),
-          // Medium
-          React.createElement(
-            'a',
-            { 
-              href: 'https://medium.com/@sadeghetemad.aydin',
-              target: '_blank',
-              rel: 'noopener noreferrer',
-              className: 'text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors'
-            },
-            React.createElement('i', { className: 'fab fa-medium' })
-          ),
-          // Reddit
-          React.createElement(
-            'a',
-            { 
-              href: 'https://www.reddit.com/user/sadeghetemad_aydin/',
-              target: '_blank',
-              rel: 'noopener noreferrer',
-              className: 'text-gray-700 hover:text-yellow-500 dark:text-gray-400 dark:hover:text-yellow-400 transition-colors'
-            },
-            React.createElement('i', { className: 'fab fa-reddit' })
-          ),
-          // Stack Overflow
-          React.createElement(
-            'a',
-            { 
-              href: 'https://stackoverflow.com/users/5637416/aydin-sadeghetemad',
-              target: '_blank',
-              rel: 'noopener noreferrer',
-              className: 'text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors'
-            },
-            React.createElement('i', { className: 'fab fa-stack-overflow' })
-          ),
-          // Kaggle
-          React.createElement(
-            'a',
-            { 
-              href: 'https://www.kaggle.com/sadeghetemad',
-              target: '_blank',
-              rel: 'noopener noreferrer',
-              className: 'text-gray-700 hover:text-yellow-500 dark:text-gray-400 dark:hover:text-yellow-400 transition-colors'
-            },
-            React.createElement('i', { className: 'fab fa-kaggle' })
-          ),
           // ResearchGate
           React.createElement(
             'a',
             { 
-              href: 'https://www.researchgate.net/profile/Sadegh-Abedinia',
+              href: 'https://www.researchgate.net/profile/Sadegh-Etemad-2',
               target: '_blank',
               rel: 'noopener noreferrer',
               className: 'text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors'
@@ -204,7 +149,7 @@ const Header = ({ darkMode, toggleDarkMode }) => {
           React.createElement(
             'a',
             { 
-              href: 'https://scholar.google.com/citations?user=oIMDgJsAAAAJ&hl=enB1SRyKwAAAAJ&hl=en',
+              href: 'https://scholar.google.com/citations?user=oIMDgJsAAAAJ&hl=en',
               target: '_blank',
               rel: 'noopener noreferrer',
               className: 'text-gray-700 hover:text-yellow-500 dark:text-gray-400 dark:hover:text-yellow-400 transition-colors'
@@ -215,34 +160,12 @@ const Header = ({ darkMode, toggleDarkMode }) => {
           React.createElement(
             'a',
             { 
-              href: 'https://orcid.org/0000-0001-9739-7021',
+              href: 'https://orcid.org/0000-0003-0665-7305',
               target: '_blank',
               rel: 'noopener noreferrer',
               className: 'text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors'
             },
             React.createElement('i', { className: 'fab fa-orcid' })
-          ),
-          // Mastodon
-          React.createElement(
-            'a',
-            { 
-              href: 'https://mastodon.social/@sadeghetemad_aydin',
-              target: '_blank',
-              rel: 'noopener noreferrer',
-              className: 'text-gray-700 hover:text-yellow-500 dark:text-gray-400 dark:hover:text-yellow-400 transition-colors'
-            },
-            React.createElement('i', { className: 'fab fa-mastodon' })
-          ),
-          // Xing
-          React.createElement(
-            'a',
-            { 
-              href: 'https://www.xing.com/profile/aydin_sadeghetemad/',
-              target: '_blank',
-              rel: 'noopener noreferrer',
-              className: 'text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors'
-            },
-            React.createElement('i', { className: 'fab fa-xing' })
           ),
           // Dark mode toggle
           React.createElement(
@@ -300,18 +223,10 @@ const Header = ({ darkMode, toggleDarkMode }) => {
               'div',
               { className: 'flex space-x-4 p-2 border-t border-gray-200 dark:border-gray-800 pt-4' },
               React.createElement('a', { href: 'https://github.com/sadeghetemad', target: '_blank', rel: 'noopener noreferrer', className: 'text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors' }, React.createElement('i', { className: 'fab fa-github' })),
-              React.createElement('a', { href: 'https://www.linkedin.com/in/aydin-sadeghetemad-96b2276b/', target: '_blank', rel: 'noopener noreferrer', className: 'text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors' }, React.createElement('i', { className: 'fab fa-linkedin' })),
-              React.createElement('a', { href: 'https://x.com/sadeghetemad_aydin', target: '_blank', rel: 'noopener noreferrer', className: 'text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors' }, React.createElement('i', { className: 'fab fa-twitter' })),
-              React.createElement('a', { href: 'https://medium.com/@sadeghetemad.aydin', target: '_blank', rel: 'noopener noreferrer', className: 'text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors' }, React.createElement('i', { className: 'fab fa-medium' })),
-              React.createElement('a', { href: 'https://www.reddit.com/user/sadeghetemad_aydin/', target: '_blank', rel: 'noopener noreferrer', className: 'text-gray-700 hover:text-yellow-500 dark:text-gray-400 dark:hover:text-yellow-400 transition-colors' }, React.createElement('i', { className: 'fab fa-reddit' })),
-              React.createElement('a', { href: 'https://stackoverflow.com/users/5637416/aydin-sadeghetemad', target: '_blank', rel: 'noopener noreferrer', className: 'text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors' }, React.createElement('i', { className: 'fab fa-stack-overflow' })),
-              React.createElement('a', { href: 'https://www.kaggle.com/sadeghetemad', target: '_blank', rel: 'noopener noreferrer', className: 'text-gray-700 hover:text-yellow-500 dark:text-gray-400 dark:hover:text-yellow-400 transition-colors' }, React.createElement('i', { className: 'fab fa-kaggle' })),
-              React.createElement('a', { href: 'https://www.researchgate.net/profile/Sadegh-Abedinia', target: '_blank', rel: 'noopener noreferrer', className: 'text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors' }, React.createElement('i', { className: 'fab fa-researchgate' })),
-              React.createElement('a', { href: 'https://scholar.google.com/citations?user=oIMDgJsAAAAJ&hl=enB1SRyKwAAAAJ&hl=en', target: '_blank', rel: 'noopener noreferrer', className: 'text-gray-700 hover:text-yellow-500 dark:text-gray-400 dark:hover:text-yellow-400 transition-colors' }, React.createElement('i', { className: 'fas fa-graduation-cap' })),
-              React.createElement('a', { href: 'https://orcid.org/0000-0001-9739-7021', target: '_blank', rel: 'noopener noreferrer', className: 'text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors' }, React.createElement('i', { className: 'fab fa-orcid' })),
-              React.createElement('a', { href: 'https://mastodon.social/@sadeghetemad_aydin', target: '_blank', rel: 'noopener noreferrer', className: 'text-gray-700 hover:text-yellow-500 dark:text-gray-400 dark:hover:text-yellow-400 transition-colors' }, React.createElement('i', { className: 'fab fa-mastodon' })),
-              React.createElement('a', { href: 'https://www.xing.com/profile/aydin_sadeghetemad/', target: '_blank', rel: 'noopener noreferrer', className: 'text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors' }, React.createElement('i', { className: 'fab fa-xing' }))
-            )
+              React.createElement('a', { href: 'https://www.linkedin.com/in/sadegh-etemad/', target: '_blank', rel: 'noopener noreferrer', className: 'text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors' }, React.createElement('i', { className: 'fab fa-linkedin' })),
+              React.createElement('a', { href: 'https://www.researchgate.net/profile/Sadegh-Etemad-2', target: '_blank', rel: 'noopener noreferrer', className: 'text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors' }, React.createElement('i', { className: 'fab fa-researchgate' })),
+              React.createElement('a', { href: 'https://scholar.google.com/citations?user=oIMDgJsAAAAJ&hl=en', target: '_blank', rel: 'noopener noreferrer', className: 'text-gray-700 hover:text-yellow-500 dark:text-gray-400 dark:hover:text-yellow-400 transition-colors' }, React.createElement('i', { className: 'fas fa-graduation-cap' })),
+              React.createElement('a', { href: 'https://orcid.org/0000-0003-0665-7305', target: '_blank', rel: 'noopener noreferrer', className: 'text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors' }, React.createElement('i', { className: 'fab fa-orcid' }))            )
           )
         )
       )

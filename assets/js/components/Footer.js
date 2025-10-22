@@ -150,7 +150,7 @@ const Footer = () => {
             React.createElement(
               'a', 
               { 
-                href: 'https://www.linkedin.com/in/aydin-sadeghetemad-96b2276b/',
+                href: 'https://www.linkedin.com/in/sadegh-etemad/',
                 target: '_blank',
                 rel: 'noopener noreferrer',
                 className: 'bg-gray-800 p-3 rounded-lg hover:bg-blue-900 transition-colors flex flex-col items-center justify-center'
@@ -158,71 +158,11 @@ const Footer = () => {
               React.createElement('i', { className: 'fab fa-linkedin text-xl mb-2' }),
               React.createElement('span', { className: 'text-xs' }, 'LinkedIn')
             ),
-            // Twitter
-            React.createElement(
-              'a', 
-              { 
-                href: 'https://x.com/sadeghetemad_aydin',
-                target: '_blank',
-                rel: 'noopener noreferrer',
-                className: 'bg-gray-800 p-3 rounded-lg hover:bg-yellow-900 transition-colors flex flex-col items-center justify-center'
-              },
-              React.createElement('i', { className: 'fab fa-twitter text-xl mb-2' }),
-              React.createElement('span', { className: 'text-xs' }, 'Twitter')
-            ),
-            // Medium
-            React.createElement(
-              'a', 
-              { 
-                href: 'https://medium.com/@sadeghetemad.aydin',
-                target: '_blank',
-                rel: 'noopener noreferrer',
-                className: 'bg-gray-800 p-3 rounded-lg hover:bg-blue-900 transition-colors flex flex-col items-center justify-center'
-              },
-              React.createElement('i', { className: 'fab fa-medium text-xl mb-2' }),
-              React.createElement('span', { className: 'text-xs' }, 'Medium')
-            ),
-            // Reddit
-            React.createElement(
-              'a', 
-              { 
-                href: 'https://www.reddit.com/user/sadeghetemad_aydin/',
-                target: '_blank',
-                rel: 'noopener noreferrer',
-                className: 'bg-gray-800 p-3 rounded-lg hover:bg-yellow-900 transition-colors flex flex-col items-center justify-center'
-              },
-              React.createElement('i', { className: 'fab fa-reddit text-xl mb-2' }),
-              React.createElement('span', { className: 'text-xs' }, 'Reddit')
-            ),
-            // Stack Overflow
-            React.createElement(
-              'a', 
-              { 
-                href: 'https://stackoverflow.com/users/5637416/aydin-sadeghetemad',
-                target: '_blank',
-                rel: 'noopener noreferrer',
-                className: 'bg-gray-800 p-3 rounded-lg hover:bg-blue-900 transition-colors flex flex-col items-center justify-center'
-              },
-              React.createElement('i', { className: 'fab fa-stack-overflow text-xl mb-2' }),
-              React.createElement('span', { className: 'text-xs' }, 'Stack OF')
-            ),
-            // Kaggle
-            React.createElement(
-              'a', 
-              { 
-                href: 'https://www.kaggle.com/sadeghetemad',
-                target: '_blank',
-                rel: 'noopener noreferrer',
-                className: 'bg-gray-800 p-3 rounded-lg hover:bg-yellow-900 transition-colors flex flex-col items-center justify-center'
-              },
-              React.createElement('i', { className: 'fab fa-kaggle text-xl mb-2' }),
-              React.createElement('span', { className: 'text-xs' }, 'Kaggle')
-            ),
             // ResearchGate
             React.createElement(
               'a', 
               { 
-                href: 'https://www.researchgate.net/profile/Sadegh-Abedinia',
+                href: 'https://www.researchgate.net/profile/Sadegh-Etemad-2',
                 target: '_blank',
                 rel: 'noopener noreferrer',
                 className: 'bg-gray-800 p-3 rounded-lg hover:bg-blue-900 transition-colors flex flex-col items-center justify-center'
@@ -234,7 +174,7 @@ const Footer = () => {
             React.createElement(
               'a', 
               { 
-                href: 'https://scholar.google.com/citations?user=oIMDgJsAAAAJ&hl=enB1SRyKwAAAAJ&hl=en',
+                href: 'https://scholar.google.com/citations?user=oIMDgJsAAAAJ&hl=en',
                 target: '_blank',
                 rel: 'noopener noreferrer',
                 className: 'bg-gray-800 p-3 rounded-lg hover:bg-yellow-900 transition-colors flex flex-col items-center justify-center'
@@ -246,38 +186,14 @@ const Footer = () => {
             React.createElement(
               'a', 
               { 
-                href: 'https://orcid.org/0000-0001-9739-7021',
+                href: 'https://orcid.org/0000-0003-0665-7305',
                 target: '_blank',
                 rel: 'noopener noreferrer',
                 className: 'bg-gray-800 p-3 rounded-lg hover:bg-blue-900 transition-colors flex flex-col items-center justify-center'
               },
               React.createElement('i', { className: 'fab fa-orcid text-xl mb-2' }),
               React.createElement('span', { className: 'text-xs' }, 'ORCID')
-            ),
-            // Mastodon
-            React.createElement(
-              'a', 
-              { 
-                href: 'https://mastodon.social/@sadeghetemad_aydin',
-                target: '_blank',
-                rel: 'noopener noreferrer',
-                className: 'bg-gray-800 p-3 rounded-lg hover:bg-yellow-900 transition-colors flex flex-col items-center justify-center'
-              },
-              React.createElement('i', { className: 'fab fa-mastodon text-xl mb-2' }),
-              React.createElement('span', { className: 'text-xs' }, 'Mastodon')
-            ),
-            // Xing
-            React.createElement(
-              'a', 
-              { 
-                href: 'https://www.xing.com/profile/aydin_sadeghetemad/',
-                target: '_blank',
-                rel: 'noopener noreferrer',
-                className: 'bg-gray-800 p-3 rounded-lg hover:bg-blue-900 transition-colors flex flex-col items-center justify-center'
-              },
-              React.createElement('i', { className: 'fab fa-xing text-xl mb-2' }),
-              React.createElement('span', { className: 'text-xs' }, 'Xing')
-            )
+            )        
           )
         )
       ),
