@@ -61,40 +61,11 @@ const HeroSection = () => {
             React.createElement(
               'a',
               { 
-                href: '#projects',
-                className: 'btn btn-dual py-3 px-6 rounded-lg shadow-lg'
-              },
-              'Projects'
-            ),
-            React.createElement(
-              'a',
-              { 
-                href: '#blog',
-                className: 'btn btn-dual py-3 px-6 rounded-lg shadow-lg'
-              },
-              'Blog'
-            ),
-            React.createElement(
-              'a',
-              { 
                 href: '#research',
                 className: 'btn btn-dual py-3 px-6 rounded-lg shadow-lg'
               },
               'Research'
             ),
-            // ORCID
-            // React.createElement(
-            //   'a',
-            //   { 
-            //     href: 'https://orcid.org/0000-0001-9739-7021',
-            //     target: '_blank',
-            //     rel: 'noopener noreferrer',
-            //     className: 'btn-outline py-3 px-6 rounded-lg shadow-lg flex items-center'
-            //   },
-            //   React.createElement('i', { className: 'fab fa-orcid mr-2' }),
-            //   'ORCID'
-            // )
-            // Contact Me button removed as requested
           ),
           React.createElement(
             'div',
@@ -114,73 +85,18 @@ const HeroSection = () => {
             React.createElement(
               'a', 
               { 
-                href: 'https://www.linkedin.com/in/aydin-sadeghetemad-96b2276b/',
+                href: 'https://www.linkedin.com/in/sadegh-etemad/',
                 target: '_blank',
                 rel: 'noopener noreferrer',
                 className: 'text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors contact-link pulse'
               },
               React.createElement('i', { className: 'fab fa-linkedin text-2xl' })
             ),
-            // Twitter/X
-            React.createElement(
-              'a', 
-              { 
-                href: 'https://x.com/sadeghetemad_aydin',
-                target: '_blank',
-                rel: 'noopener noreferrer',
-                className: 'text-gray-700 hover:text-yellow-500 dark:text-gray-400 dark:hover:text-yellow-400 transition-colors contact-link pulse'
-              },
-              React.createElement('i', { className: 'fab fa-twitter text-2xl' })
-            ),
-            // Medium
-            React.createElement(
-              'a', 
-              { 
-                href: 'https://medium.com/@sadeghetemad.aydin',
-                target: '_blank',
-                rel: 'noopener noreferrer',
-                className: 'text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors contact-link pulse'
-              },
-              React.createElement('i', { className: 'fab fa-medium text-2xl' })
-            ),
-            // Reddit
-            React.createElement(
-              'a', 
-              { 
-                href: 'https://www.reddit.com/user/sadeghetemad_aydin/',
-                target: '_blank',
-                rel: 'noopener noreferrer',
-                className: 'text-gray-700 hover:text-yellow-500 dark:text-gray-400 dark:hover:text-yellow-400 transition-colors contact-link pulse'
-              },
-              React.createElement('i', { className: 'fab fa-reddit text-2xl' })
-            ),
-            // Stack Overflow
-            React.createElement(
-              'a', 
-              { 
-                href: 'https://stackoverflow.com/users/5637416/aydin-sadeghetemad',
-                target: '_blank',
-                rel: 'noopener noreferrer',
-                className: 'text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors contact-link pulse'
-              },
-              React.createElement('i', { className: 'fab fa-stack-overflow text-2xl' })
-            ),
-            // Kaggle
-            React.createElement(
-              'a', 
-              { 
-                href: 'https://www.kaggle.com/sadeghetemad',
-                target: '_blank',
-                rel: 'noopener noreferrer',
-                className: 'text-gray-700 hover:text-yellow-500 dark:text-gray-400 dark:hover:text-yellow-400 transition-colors contact-link pulse'
-              },
-              React.createElement('i', { className: 'fab fa-kaggle text-2xl' })
-            ),
             // ResearchGate
             React.createElement(
               'a', 
               { 
-                href: 'https://www.researchgate.net/profile/Sadegh-Abedinia',
+                href: 'https://www.researchgate.net/profile/Sadegh-Etemad-2',
                 target: '_blank',
                 rel: 'noopener noreferrer',
                 className: 'text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors contact-link pulse'
@@ -191,7 +107,7 @@ const HeroSection = () => {
             React.createElement(
               'a', 
               { 
-                href: 'https://scholar.google.com/citations?user=oIMDgJsAAAAJ&hl=enB1SRyKwAAAAJ&hl=en',
+                href: 'https://scholar.google.com/citations?user=oIMDgJsAAAAJ&hl=en',
                 target: '_blank',
                 rel: 'noopener noreferrer',
                 className: 'text-gray-700 hover:text-yellow-500 dark:text-gray-400 dark:hover:text-yellow-400 transition-colors contact-link pulse'
@@ -202,34 +118,12 @@ const HeroSection = () => {
             React.createElement(
               'a', 
               { 
-                href: 'https://orcid.org/0000-0001-9739-7021',
+                href: 'https://orcid.org/0000-0003-0665-7305',
                 target: '_blank',
                 rel: 'noopener noreferrer',
                 className: 'text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors contact-link pulse'
               },
               React.createElement('i', { className: 'fab fa-orcid text-2xl' })
-            ),
-            // Mastodon
-            React.createElement(
-              'a', 
-              { 
-                href: 'https://mastodon.social/@sadeghetemad_aydin',
-                target: '_blank',
-                rel: 'noopener noreferrer',
-                className: 'text-gray-700 hover:text-yellow-500 dark:text-gray-400 dark:hover:text-yellow-400 transition-colors contact-link pulse'
-              },
-              React.createElement('i', { className: 'fab fa-mastodon text-2xl' })
-            ),
-            // Xing
-            React.createElement(
-              'a', 
-              { 
-                href: 'https://www.xing.com/profile/aydin_sadeghetemad/',
-                target: '_blank',
-                rel: 'noopener noreferrer',
-                className: 'text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors contact-link pulse'
-              },
-              React.createElement('i', { className: 'fab fa-xing text-2xl' })
             )
           )
         ),
@@ -248,7 +142,7 @@ const HeroSection = () => {
                 src: './assets/images/profile.jpg',
                 alt: 'Sadegh Etemad',
                 className: 'absolute inset-0 w-full h-full object-cover',
-                onError: 'this.src="https://via.placeholder.com/400x400?text=Sadegh+Abedinia"'
+                onError: 'this.src="https://via.placeholder.com/400x400?text=Sadegh+Etemad"'
               }
             )
           )
