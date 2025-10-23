@@ -50,7 +50,7 @@ const Header = ({ darkMode, toggleDarkMode }) => {
             { 
               className: 'w-10 h-10 rounded-full bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center text-white font-bold text-lg'
             },
-            'AA'
+            'SE'
           ),
           React.createElement(
             'div',
