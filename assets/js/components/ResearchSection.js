@@ -166,6 +166,21 @@ const ResearchSection = () => {
             'p',
             { className: 'text-gray-700 dark:text-gray-300 mb-4' },
             'This work introduces SherVine, a probabilistic graphical model built on the vine copula framework to capture and analyze dependency structures in shearlet transform coefficients'
+          ),
+          React.createElement(
+            'div',
+            { className: 'mt-4 pt-4 border-t border-gray-200 dark:border-gray-700 flex justify-end' },
+            React.createElement(
+              'a',
+              {
+                href: 'https://www.sciencedirect.com/science/article/abs/pii/S095741742300595X',
+                target: '_blank',
+                rel: 'noopener noreferrer',
+                className: 'text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center text-sm font-medium'
+              },
+              'Read Paper ',
+              React.createElement('i', { className: 'fas fa-external-link-alt ml-1' })
+            )
           )
         ),
         // Third publication
@@ -206,6 +221,21 @@ const ResearchSection = () => {
             'p',
             { className: 'text-gray-700 dark:text-gray-300 mb-4' },
             'This paper proposes a color-texture image retrieval framework using the shearlet transform combined with a multivariate copula model to effectively represent and retrieve textured images across color channels.'
+          ),
+          React.createElement(
+            'div',
+            { className: 'mt-4 pt-4 border-t border-gray-200 dark:border-gray-700 flex justify-end' },
+            React.createElement(
+              'a',
+              {
+                href: 'https://www.sciencedirect.com/science/article/abs/pii/S0952197621001032',
+                target: '_blank',
+                rel: 'noopener noreferrer',
+                className: 'text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center text-sm font-medium'
+              },
+              'Read Paper ',
+              React.createElement('i', { className: 'fas fa-external-link-alt ml-1' })
+            )
           )
         ),
         // Fourth publication
@@ -246,6 +276,76 @@ const ResearchSection = () => {
             'p',
             { className: 'text-gray-700 dark:text-gray-300 mb-4' },
             'This paper introduces an enhanced **R+FM customer segmentation model** that adapts to business dynamics and clusters users via **K-Means**, applied to Digikala’s e-commerce data, showing improved purchase frequency and basket value compared to the company’s previous RFM-based quantile method.'
+          ),
+          React.createElement(
+            'div',
+            { className: 'mt-4 pt-4 border-t border-gray-200 dark:border-gray-700 flex justify-end' },
+            React.createElement(
+              'a',
+              {
+                href: 'https://ieeexplore.ieee.org/abstract/document/8592638',
+                target: '_blank',
+                rel: 'noopener noreferrer',
+                className: 'text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center text-sm font-medium'
+              },
+              'Read Paper ',
+              React.createElement('i', { className: 'fas fa-external-link-alt ml-1' })
+            )
+          )
+        ),
+        // Fifth publication
+        React.createElement(
+          'div',
+          { className: 'col-span-full bg-white dark:bg-gray-900 rounded-lg shadow-md p-6 mb-6 fade-in' },
+          React.createElement(
+            'h3',
+            { className: 'text-xl font-bold text-gray-900 dark:text-white mb-2 flex items-center' },
+            React.createElement('i', { className: 'fas fa-file-alt text-blue-500 mr-3' }),
+            'A new multiplicative watermark detector in the contourlet domain using t Location-Scale distribution'
+          ),
+          React.createElement(
+            'p',
+            { className: 'text-gray-500 dark:text-gray-400 text-sm mb-2' },
+            'S Etemad, M Amirmazlaghani'
+          ),
+          React.createElement(
+            'p',
+            { className: 'text-gray-500 dark:text-gray-400 text-sm mb-4' },
+            'Pattern Recognition'
+          ),
+          React.createElement(
+            'div',
+            { className: 'flex justify-between items-center mb-4' },
+            React.createElement(
+              'span',
+              { className: 'bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 px-3 py-1 rounded-full text-sm font-medium' },
+              'Citations: 79'
+            ),
+            React.createElement(
+              'span',
+              { className: 'text-gray-500 dark:text-gray-400 text-sm' },
+              '2018'
+            )
+          ),
+          React.createElement(
+            'p',
+            { className: 'text-gray-700 dark:text-gray-300 mb-4' },
+            'This paper presents a robust multiplicative digital watermarking scheme in the contourlet domain, where contourlet coefficients are modeled using a t-location scale distribution and an optimal likelihood ratio detector is analytically derived, demonstrating superior performance and robustness against various attacks.'
+          ),
+          React.createElement(
+            'div',
+            { className: 'mt-4 pt-4 border-t border-gray-200 dark:border-gray-700 flex justify-end' },
+            React.createElement(
+              'a',
+              {
+                href: 'https://www.sciencedirect.com/science/article/abs/pii/S0031320317304922',
+                target: '_blank',
+                rel: 'noopener noreferrer',
+                className: 'text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center text-sm font-medium'
+              },
+              'Read Paper ',
+              React.createElement('i', { className: 'fas fa-external-link-alt ml-1' })
+            )
           )
         ),
         // Research interests section
