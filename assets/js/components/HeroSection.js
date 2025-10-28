@@ -61,6 +61,18 @@ const HeroSection = () => {
             React.createElement(
               'a',
               { 
+                href: '#experience',
+                className: 'btn btn-dual py-3 px-6 rounded-lg shadow-lg'
+              },
+              'Proffessional Experience'
+            ),
+          ),
+          React.createElement(
+            'div',
+            { className: 'flex flex-wrap gap-4' },
+            React.createElement(
+              'a',
+              { 
                 href: '#research',
                 className: 'btn btn-dual py-3 px-6 rounded-lg shadow-lg'
               },
