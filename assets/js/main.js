@@ -40,7 +40,7 @@ const App = () => {
     React.createElement(Header, { darkMode, toggleDarkMode }),
     React.createElement(HeroSection, null),
     React.createElement(AboutSection, null),
-    // React.createElement(ExperienceSection, null),
+    React.createElement(ExperienceSection, null),
     // React.createElement(BlogSection, null),
     React.createElement(ResearchSection, null),
     // Removed SocialSection (Latest Updates) as requested
