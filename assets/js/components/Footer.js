@@ -47,7 +47,7 @@ const Footer = () => {
           React.createElement(
             'p',
             { className: 'text-gray-400 mb-4' },
-            'Machine Learning Researcher and Multimodal AI & Biomedical Research Engineer - Crafting Scalable AI Solutions for Real-World Challenges.'
+            'Senior Machine Learning Engineer | Data Scientist - Crafting Scalable AI Solutions for Real-World Challenges.'
           ),
           React.createElement(
             'p',
@@ -86,7 +86,7 @@ const Footer = () => {
               React.createElement(
                 'a',
                 { 
-                  href: '#projects',
+                  href: '#experience',
                   className: 'text-gray-400 hover:text-white transition-colors inline-flex items-center'
                 },
                 React.createElement('i', { className: 'fas fa-chevron-right text-xs mr-2 text-blue-400' }),

@@ -3,7 +3,7 @@
 // ==============================
 // Experience Section Component
 // ==============================
-const ProjectsSection = () => {
+const ExperienceSection = () => {
   const experiences = [
     {
       id: 1,

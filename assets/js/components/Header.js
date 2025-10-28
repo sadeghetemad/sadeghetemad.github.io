@@ -82,7 +82,7 @@ const Header = ({ darkMode, toggleDarkMode }) => {
           })
         ),
         React.createElement('a', { 
-          href: '#projects', 
+          href: '#experience', 
           className: 'hover:text-blue-600 dark:hover:text-blue-400 transition-colors relative group'
         }, 
           'Experience',
@@ -207,7 +207,7 @@ const Header = ({ darkMode, toggleDarkMode }) => {
             'div',
             { className: 'container mx-auto px-4 py-4 flex flex-col space-y-4' },
             React.createElement('a', { href: '#about', className: 'hover:text-blue-600 dark:hover:text-blue-400 transition-colors p-2', onClick: toggleMenu }, 'About'),
-            React.createElement('a', { href: '#projects', className: 'hover:text-blue-600 dark:hover:text-blue-400 transition-colors p-2', onClick: toggleMenu }, 'Projects'),
+            React.createElement('a', { href: '#experience', className: 'hover:text-blue-600 dark:hover:text-blue-400 transition-colors p-2', onClick: toggleMenu }, 'Experience'),
             React.createElement('a', { href: '#blog', className: 'hover:text-blue-600 dark:hover:text-blue-400 transition-colors p-2', onClick: toggleMenu }, 'Blog'),
             React.createElement('a', { href: '#research', className: 'hover:text-blue-600 dark:hover:text-blue-400 transition-colors p-2', onClick: toggleMenu }, 'Research'),
             React.createElement(
