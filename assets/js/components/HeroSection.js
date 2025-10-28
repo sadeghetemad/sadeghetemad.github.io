@@ -57,30 +57,6 @@ const HeroSection = () => {
           ),
           React.createElement(
             'div',
-            { className: 'flex flex-wrap gap-4' },
-            React.createElement(
-              'a',
-              { 
-                href: '#experience',
-                className: 'btn btn-dual py-3 px-6 rounded-lg shadow-lg'
-              },
-              'Proffessional Experience'
-            ),
-          ),
-          React.createElement(
-            'div',
-            { className: 'flex flex-wrap gap-4' },
-            React.createElement(
-              'a',
-              { 
-                href: '#research',
-                className: 'btn btn-dual py-3 px-6 rounded-lg shadow-lg'
-              },
-              'Research'
-            ),
-          ),
-          React.createElement(
-            'div',
             { className: 'flex mt-8 space-x-6 stagger-item' },
             // GitHub
             React.createElement(
