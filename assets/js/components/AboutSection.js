@@ -33,17 +33,17 @@ const AboutSection = () => {
           { className: 'fade-in' },
           React.createElement(
             'p',
-            { className: 'text-lg text-gray-700 dark:text-gray-300 mb-6' },
+            { className: 'text-lg text-gray-700 dark:text-gray-300 mb-6 text-justify' },
             'I am Sadegh Etemad, a Machine Learning Researcher and Multimodal AI Engineer with over seven years of experience bridging academic research and large-scale industry applications. I hold a Ph.D. in Artificial Intelligence from Amirkabir University of Technology, where my work focused on statistical modeling and signal processing in computer vision. Over the years, I have combined a deep theoretical foundation with practical engineering experience, exploring how data, computation, and biology can converge to create intelligent systems that drive discovery and impact.'
           ),
           React.createElement(
             'p',
-            { className: 'text-lg text-gray-700 dark:text-gray-300 mb-6' },
+            { className: 'text-lg text-gray-700 dark:text-gray-300 mb-6 text-justify' },
             'Before joining academia in the UK, I worked at Snapp!, Iran’s leading ride-hailing and mobility platform. There, I led a team of data scientists and engineers developing ETA (Estimated Time of Arrival) prediction models and high-performance distributed systems that supported more than 5 million daily trips. My contributions included designing spatio-temporal ML pipelines, integrating real-time traffic and map data, and deploying large-scale machine learning models to improve ride allocation efficiency and travel time accuracy. This experience taught me how to scale AI solutions for dynamic, high-volume environments where precision and reliability directly impact user experience.'
           ),
           React.createElement(
             'p',
-            { className: 'text-lg text-gray-700 dark:text-gray-300 mb-6' },
+            { className: 'text-lg text-gray-700 dark:text-gray-300 mb-6 text-justify' },
             'Currently, I am a Research Associate at Teesside University, working on multimodal AI applications in biomedical research. My projects involve integrating spatial transcriptomics, single-cell imaging, and fluxomics data using deep learning and statistical modeling to uncover cellular behavior and disease mechanisms, particularly in cancer. My goal is to build intelligent systems that connect molecular data with visual and spatial context, accelerating discoveries in precision medicine and computational biology.'
           ),
           React.createElement(
