@@ -152,6 +152,32 @@ const AboutSection = () => {
                 ))
               )
             ),
+            // Tools and Frameworks
+            React.createElement(
+              'div',
+              { className: 'mb-8' },
+              React.createElement(
+                'h4',
+                { className: 'text-xl font-medium mb-4 text-gray-900 dark:text-white' },
+                'Tools and Frameworks'
+              ),
+              React.createElement(
+                'div',
+                { className: 'flex flex-wrap gap-3' },
+                ['TensorFlow', 'PyTorch', 'Pyspark', 'Hugging Face', 'LangChain', 
+                   'NumPy', 'Pandas', 'Scikit-learn', 'Scikit-Image', 'XGBoost/LightGBM', 
+                   'FastAPI', 'Jupyter', 'Matplotlib', 'Seaborn', 'Plotly'].map(tool => (
+                  React.createElement(
+                    'span',
+                    { 
+                      key: tool,
+                      className: 'px-3 py-1 bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200 rounded-full text-sm font-medium'
+                    },
+                    tool
+                  )
+                ))
+              )
+            ),
             // Engineering Tools & Frameworks
             React.createElement(
               'div',
@@ -164,7 +190,10 @@ const AboutSection = () => {
               React.createElement(
                 'div',
                 { className: 'flex flex-wrap gap-3' },
-                ['Linux', 'Docker', 'Kubernetes', 'Helm', 'Terraform', 'Ansible', 'AWS', 'Git', 'Redis', 'NATS', 'Kafka', 'RabbitMQ', 'Elastic Stack', 'PostgreSQL', 'MySQL', 'ClickHouse', 'TimescaleDB', 'Prometheus', 'Grafana', 'Jaeger', 'pytest', 'Matplotlib'].map(tool => (
+                ['Docker', 'Kubernetes', 'Helm', 'Ansible', 'AWS', 'Airflow', 'MLFlow',
+                   'Kedro', 'Seldon', 'Git', 'DVC' ,'Redis', 'Kafka', 'RabbitMQ', 
+                   'Elastic Stack', 'PostgreSQL', 'MySQL', 'ClickHouse', 
+                   'Prometheus', 'Grafana', 'Jaeger'].map(tool => (
                   React.createElement(
                     'span',
                     { 
@@ -189,9 +218,9 @@ const AboutSection = () => {
                 'div',
                 { className: 'flex flex-wrap gap-3' },
                 [
-                  'Microservices', 'RESTful APIs', 'gRPC', 'Multimodal AI & Biomedical Research', 'Concurrency', 
-                  'Event-Driven Architecture', 'Database Optimization', 'High-Traffic Systems',
-                  'CI/CD', 'Observability', 'Agile (Scrum)'
+                  'Microservices Architecture', 'RESTful APIs', 'gRPC Communication',
+                  'Concurrency', 'Database Optimization', 'High-Traffic Systems',
+                  'CI/CD', 'Observability and Monitoring', 'Agile (Scrum)'
                 ].map(area => (
                   React.createElement(
                     'span',
@@ -210,30 +239,6 @@ const AboutSection = () => {
               { className: 'text-2xl font-semibold mb-6 mt-12 text-gray-900 dark:text-white border-t border-gray-200 dark:border-gray-700 pt-8' },
               'Research & Academic Skills'
             ),
-            // Research Tools
-            React.createElement(
-              'div',
-              { className: 'mb-8' },
-              React.createElement(
-                'h4',
-                { className: 'text-xl font-medium mb-4 text-gray-900 dark:text-white' },
-                'Research Tools'
-              ),
-              React.createElement(
-                'div',
-                { className: 'flex flex-wrap gap-3' },
-                ['TensorFlow', 'PyTorch', 'Pyspark', 'NumPy', 'Pandas', 'Scikit-learn', 'Jupyter', 'Matplotlib', 'LangChain', 'Seaborn'].map(tool => (
-                  React.createElement(
-                    'span',
-                    { 
-                      key: tool,
-                      className: 'px-3 py-1 bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200 rounded-full text-sm font-medium'
-                    },
-                    tool
-                  )
-                ))
-              )
-            ),
             // Research Areas
             React.createElement(
               'div',
@@ -247,9 +252,11 @@ const AboutSection = () => {
                 'div',
                 { className: 'flex flex-wrap gap-3' },
                 [
-                  'Semi-Supervised Learning', 'Reinforcement Learning', 'Machine Learning', 
-                  'Statistical Analysis','Deep Learning', 'Large Language Models', 
-                  'Graph Neural Network', 'Transfer Learning'
+                  'Machine Learning', 'Semi-Supervised Learning',
+                  'Deep Learning', 'Large Language Models', 
+                  'Graph Neural Network', 'Transfer Learning',
+                  'Statistical Learning', 'Image Processing & Computer Vision',
+                  'Multimodal Models'
                 ].map(area => (
                   React.createElement(
                     'span',
