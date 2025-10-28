@@ -52,7 +52,7 @@ const HeroSection = () => {
           ),
           React.createElement(
             'p',
-            { className: 'text-lg text-gray-700 dark:text-gray-300 mb-6 max-w-2xl parallax', 'data-speed': '0.1' },
+            { className: 'text-lg text-gray-700 dark:text-gray-300 mb-6 max-w-2xl parallax text-justify', 'data-speed': '0.1' },
             'Senior Data Scientist and Machine Learning Engineer with over 7 years of experience in designing and deploying AI-driven products across diverse industries. Expert in multimodal learning, deep neural architectures, and scalable data solutions, with a proven track record of leading teams, optimizing performance, and translating complex research into high-impact business outcomes.'
           ),
           React.createElement(
