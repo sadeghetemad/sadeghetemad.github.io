@@ -90,20 +90,7 @@ const Footer = () => {
                   className: 'text-gray-400 hover:text-white transition-colors inline-flex items-center'
                 },
                 React.createElement('i', { className: 'fas fa-chevron-right text-xs mr-2 text-blue-400' }),
-                'Projects'
-              )
-            ),
-            React.createElement(
-              'li',
-              null,
-              React.createElement(
-                'a',
-                { 
-                  href: '#blog',
-                  className: 'text-gray-400 hover:text-white transition-colors inline-flex items-center'
-                },
-                React.createElement('i', { className: 'fas fa-chevron-right text-xs mr-2 text-yellow-400' }),
-                'Blog'
+                'Experience'
               )
             ),
             React.createElement(

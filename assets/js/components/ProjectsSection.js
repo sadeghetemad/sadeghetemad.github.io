@@ -1,114 +1,93 @@
 'use strict';
 
-// Projects Section Component
+// ==============================
+// Experience Section Component
+// ==============================
 const ProjectsSection = () => {
-  // Sample project data (in a real application, this would be fetched from GitHub API)
-  const projects = [
+  const experiences = [
     {
       id: 1,
-      name: "",
-      description: "An efficient implementation of the Semi-CART algorithm for weighted decision trees, enhancing prediction accuracy by 12% on UCI benchmarks by utilizing test data weights determined through distance-based methods.",
-      technologies: ["Python", "Machine Learning", "Decision Trees", "Semi-Supervised Learning"],
-      repoUrl: "https://github.com/WeightedAI/semicart"
+      role: "Research Associate – Multimodal AI in Biomedical Research",
+      company: "Teesside University, Middlesbrough, UK",
+      period: "Jul 2025 – Present",
+      description:
+        "Working on multimodal AI applications in cancer research, integrating spatial transcriptomics, single-cell imaging, and fluxomics data using deep learning and statistical modeling to uncover cellular mechanisms and metabolic behaviors.",
+      technologies: ["Python", "PyTorch", "Transformers", "Multimodal AI", "Spatial Transcriptomics", "Fluxomics"]
     },
     {
       id: 2,
-      name: "Rust Decision Tree",
-      description: "A high-performance Rust library for building decision trees for classification tasks, cutting training time by 40% on large datasets. Supports both Gini impurity and entropy-based information gain criteria.",
-      technologies: ["Rust", "Machine Learning", "Decision Trees", "High Performance"],
-      repoUrl: "https://github.com/sadeghetemad/rust_decision_tree"
+      role: "AI Engineering Manager",
+      company: "Snapp!, Tehran, Iran",
+      period: "Jul 2024 – Jul 2025",
+      description:
+        "Led a team of 10 data scientists and engineers building ML pipelines for real-time transportation optimization, ETA prediction, and map intelligence. Designed distributed data architectures and deployed production-level ML systems handling 5M+ daily trips.",
+      technologies: ["Airflow", "Spark", "MLflow", "Kedro", "PostgreSQL", "Kafka", "Python"]
     },
     {
-      "id": 3,
-      "name": "GoProxyGet",
-      "description": "A command‑line utility in Go for securely downloading files through SOCKS5 proxies, offering effortless proxy handling, customizable settings, and cross‑platform support.",
-      "technologies": ["Go", "SOCKS5", "Networking", "Concurrency"],
-      "repoUrl": "https://github.com/sadeghetemad/GoProxyGet"
+      id: 3,
+      role: "Senior Data Scientist",
+      company: "Snapp!, Tehran, Iran",
+      period: "May 2020 – May 2022",
+      description:
+        "Developed large-scale traffic forecasting and routing optimization models using spatial-temporal machine learning to improve ETA accuracy. Designed pipelines to process billions of GPS records for better mobility insights.",
+      technologies: ["Python", "XGBoost", "LightGBM", "Scikit-learn", "Pandas", "Time-Series"]
+    },
+    {
+      id: 4,
+      role: "Data Scientist",
+      company: "Kian Digital, Tehran, Iran",
+      period: "Dec 2018 – May 2020",
+      description:
+        "Developed algorithmic trading and quantitative forecasting models integrating statistical and deep learning approaches. Implemented trend detection and portfolio optimization strategies for financial markets.",
+      technologies: ["Python", "LSTM", "Finance", "Time-Series", "Quantitative Modeling"]
+    },
+    {
+      id: 5,
+      role: "Data Scientist",
+      company: "Digikala, Tehran, Iran",
+      period: "Jan 2018 – Dec 2018",
+      description:
+        "Built RFM-based customer segmentation and personalization models, providing data-driven insights for marketing and user engagement. Enhanced retention strategies through clustering and behavioral analytics.",
+      technologies: ["Python", "RFM", "K-Means", "Data Mining", "Business Intelligence"]
     }
-    // {
-    //   id: 4,
-    //   name: "db_weights",
-    //   description: "Provides tools for calculating weights of training records based on their distance from the test set, employing nearest neighbors and various distance measures to facilitate semi-supervised learning.",
-    //   technologies: ["Python", "Data Preprocessing", "Distance Metrics", "Semi-Supervised Learning"],
-    //   repoUrl: "https://github.com/WeightedAI/db_weights"
-    // },
-    // {
-    //   id: 5,
-    //   name: "C-COAT",
-    //   description: "Causal Counterfactual-based Observation-Action Transparency for Interpretable Reinforcement Learning, improving decision transparency in RL systems.",
-    //   technologies: ["Python", "Reinforcement Learning", "Causal Inference", "Interpretability"],
-    //   repoUrl: "https://github.com/sadeghetemad/c-coat"
-    // },
-    // {
-    //   id: 6,
-    //   name: "cache_service",
-    //   description: "A simple HTTP server built with Rust and Actix-Web, providing both in-memory and Redis caching solutions. It supports Time-To-Live (TTL) management and basic cache operations, designed for high performance.",
-    //   technologies: ["Rust", "Caching", "HTTP Server", "Actix-Web"],
-    //   repoUrl: "https://github.com/sadeghetemad/cache_service"
-    // }
   ];
 
-  // Project Card Component
-  const ProjectCard = (project) => {
+  // Card Component
+  const ExperienceCard = (exp) => {
     return React.createElement(
       'div',
-      { 
-        className: 'project-card bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover-3d',
-        'data-tilt': true,
-        'data-tilt-max': '10',
-        'data-tilt-scale': '1.05'
+      {
+        className:
+          'bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 border-l-4 border-blue-500 dark:border-blue-400 hover:shadow-2xl transition-all transform hover:-translate-y-1'
       },
       React.createElement(
+        'h3',
+        { className: 'text-xl font-bold text-gray-900 dark:text-white mb-2' },
+        exp.role
+      ),
+      React.createElement(
         'div',
-        { className: 'bg-white dark:bg-gray-800 rounded-xl p-6 h-full border-t-4 border-l-4 border-r-0 border-b-0 border-t-blue-500 border-l-yellow-500 dark:border-t-blue-400 dark:border-l-yellow-400 rounded-br-none' },
-        React.createElement(
-          'div',
-          { className: 'flex justify-between items-start mb-4' },
+        { className: 'text-sm text-gray-600 dark:text-gray-400 mb-3' },
+        `${exp.company} | ${exp.period}`
+      ),
+      React.createElement(
+        'p',
+        { className: 'text-gray-700 dark:text-gray-300 mb-4 text-justify leading-relaxed' },
+        exp.description
+      ),
+      React.createElement(
+        'div',
+        { className: 'flex flex-wrap gap-2' },
+        exp.technologies.map(tech =>
           React.createElement(
-            'h3',
-            { className: 'text-xl font-bold text-gray-900 dark:text-white dynamic-underline' },
-            project.name
-          ),
-          // Add a floating icon - alternating between blue and yellow based on project ID
-          React.createElement(
-            'div', 
-            { className: 'float' },
-            React.createElement('i', { 
-              className: `fas fa-code ${project.id % 2 === 0 ? 'text-blue-600 dark:text-blue-400' : 'text-yellow-500 dark:text-yellow-400'} text-xl`
-            })
+            'span',
+            {
+              key: tech,
+              className:
+                'px-2.5 py-1.5 bg-blue-100 text-blue-800 dark:bg-blue-900/30 dark:text-blue-200 rounded-full text-xs font-medium'
+            },
+            tech
           )
-        ),
-        React.createElement(
-          'p',
-          { className: 'text-gray-700 dark:text-gray-300 mb-6 h-24 overflow-hidden' },
-          project.description
-        ),
-        React.createElement(
-          'div',
-          { className: 'flex flex-wrap gap-2 mb-4' },
-          project.technologies.map(tech => (
-            React.createElement(
-              'span',
-              { 
-                key: tech,
-                className: `px-2.5 py-1.5 ${tech.length % 2 === 0 ? 'bg-blue-100 text-blue-800 dark:bg-blue-900/30 dark:text-blue-200' : 'bg-yellow-100 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-200'} rounded-full text-xs font-medium transform transition-all hover:scale-110 hover:shadow-md skill-tag`
-              },
-              tech
-            )
-          ))
-        ),
-        React.createElement(
-          'a',
-          { 
-            href: project.repoUrl,
-            target: '_blank',
-            rel: 'noopener noreferrer',
-            className: 'inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors group mt-4'
-          },
-          'View on GitHub ',
-          React.createElement('i', { 
-            className: 'fas fa-external-link-alt ml-1 transform transition-transform group-hover:translate-x-1'
-          })
         )
       )
     );
@@ -117,71 +96,54 @@ const ProjectsSection = () => {
   return React.createElement(
     'section',
     {
-      id: 'projects',
-      className: 'py-12 bg-gray-100 dark:bg-gray-800 transition-colors duration-300 relative'
+      id: 'experience',
+      className: 'py-20 bg-gray-100 dark:bg-gray-900 transition-colors duration-300 relative'
     },
-    // Background pattern for visual interest
-    React.createElement(
-      'div', 
-      { 
-        className: 'absolute inset-0 opacity-5 dark:opacity-10 pointer-events-none',
-        style: {
-          backgroundImage: 'url("data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%233b82f6\' fill-opacity=\'0.4\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")',
-        }
+    // subtle background pattern
+    React.createElement('div', {
+      className: 'absolute inset-0 opacity-5 dark:opacity-10 pointer-events-none',
+      style: {
+        backgroundImage:
+          "url(\"data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%233b82f6' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\")"
       }
-    ),
+    }),
     React.createElement(
       'div',
       { className: 'container mx-auto px-4 relative z-10' },
       React.createElement(
         'div',
-        { className: 'text-center mb-20 fade-in' },
+        { className: 'text-center mb-16 fade-in' },
         React.createElement(
           'h2',
           { className: 'text-3xl md:text-4xl font-bold mb-4 text-gray-900 dark:text-white text-gradient' },
-          'Featured Projects'
+          'Professional Experience'
         ),
-        React.createElement(
-          'div',
-          { className: 'w-24 h-1.5 bg-gradient-to-r from-blue-600 via-yellow-500 to-indigo-600 dark:from-blue-400 dark:via-yellow-400 dark:to-indigo-400 mx-auto mb-6 rounded-full' }
-        ),
+        React.createElement('div', {
+          className:
+            'w-24 h-1.5 bg-gradient-to-r from-blue-600 via-yellow-500 to-indigo-600 dark:from-blue-400 dark:via-yellow-400 dark:to-indigo-400 mx-auto mb-6 rounded-full'
+        }),
         React.createElement(
           'p',
           { className: 'max-w-2xl mx-auto text-lg text-gray-700 dark:text-gray-300 parallax mb-8', 'data-speed': '0.05' },
-          // 'Explore some of my open-source projects focused on machine learning, backend development, and distributed systems.'
+          'A timeline of my academic and industry experience across machine learning, data science, and AI engineering.'
         )
       ),
       React.createElement(
         'div',
         { className: 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8' },
-        projects.map((project, index) => (
+        experiences.map((exp, index) =>
           React.createElement(
             'div',
-            { 
-              key: project.id,
+            {
+              key: exp.id,
               className: 'stagger-item transform transition-all duration-500',
               style: {
                 animationDelay: `${index * 100}ms`,
-                transform: 'translateY(0) scale(1)',
+                transform: 'translateY(0) scale(1)'
               }
             },
-            ProjectCard(project)
+            ExperienceCard(exp)
           )
-        ))
-      ),
-      React.createElement(
-        'div',
-        { className: 'text-center mt-12' },
-        React.createElement(
-          'a',
-          { 
-            href: 'https://github.com/sadeghetemad',
-            target: '_blank',
-            rel: 'noopener noreferrer',
-            className: 'btn bg-gradient-blue-yellow hover:bg-blue-700 text-white inline-flex items-center font-medium py-3 px-6 rounded-lg shadow-lg transition-all'
-          },
-          'View More on GitHub ',
-          React.createElement('i', { className: 'fas fa-arrow-right ml-2' })
         )
       )
     )
