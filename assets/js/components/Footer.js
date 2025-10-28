@@ -36,7 +36,7 @@ const Footer = () => {
               { 
                 className: 'w-10 h-10 rounded-full bg-gradient-to-br from-blue-500 to-yellow-500 flex items-center justify-center text-white font-bold text-lg mr-3'
               },
-              'AA'
+              'SE'
             ),
             React.createElement(
               'h3',
@@ -46,8 +46,8 @@ const Footer = () => {
           ),
           React.createElement(
             'p',
-            { className: 'text-gray-400 mb-4' },
-            'Senior Machine Learning Engineer | Data Scientist - Crafting Scalable AI Solutions for Real-World Challenges.'
+            { className: 'text-gray-400 mb-4 text-justify' },
+            'Senior Machine Learning Engineer and Data Scientist - Crafting Scalable AI Solutions for Real-World Challenges.'
           ),
           React.createElement(
             'p',
