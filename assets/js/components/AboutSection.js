@@ -26,7 +26,7 @@ const AboutSection = () => {
       ),
       React.createElement(
         'div',
-        { className: 'grid grid-cols-1 md:grid-cols-2 gap-12 items-center' },
+        { className: 'grid grid-cols-1 md:grid-cols-2 gap-12 items-start' },
         // Left Column: Text Content
         React.createElement(
           'div',
@@ -71,11 +71,6 @@ const AboutSection = () => {
                   React.createElement(
                     'div',
                     { className: 'text-sm italic mt-1' },
-                    'Thesis: Statistical Modeling of Shearlet Transform Coefficient in Image Processing Applications'
-                  ),
-                  React.createElement(
-                    'div',
-                    { className: 'text-sm italic mt-1' },
                     'Amirkabir University of Technology, Graduated in 2023'
                   )
                 ),
@@ -86,11 +81,6 @@ const AboutSection = () => {
                     'div',
                     { className: 'font-medium' },
                     '🎓 MSc in Computer Engineering - Artificial Intelligence, GPA: 3.66/4'
-                  ),
-                  React.createElement(
-                    'div',
-                    { className: 'text-sm italic mt-1' },
-                    'Thesis: Using Reinforcement Learning to Manage Electricity Smart Micro-grid'
                   ),
                   React.createElement(
                     'div',
@@ -159,7 +149,7 @@ const AboutSection = () => {
               React.createElement(
                 'h4',
                 { className: 'text-xl font-medium mb-4 text-gray-900 dark:text-white' },
-                'Tools and Frameworks'
+                'Python Tools and Frameworks'
               ),
               React.createElement(
                 'div',
