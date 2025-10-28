@@ -56,7 +56,7 @@ const ExperienceSection = () => {
       'div',
       {
         className:
-          'bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 border-l-4 border-blue-500 dark:border-blue-400 hover:shadow-2xl transition-all transform hover:-translate-y-1'
+          'bg-white dark:bg-gray-900 rounded-lg shadow-md p-6 fade-in border-l-4 border-blue-500 dark:border-blue-400 hover:shadow-xl transition-all transform hover:-translate-y-1'
       },
       React.createElement(
         'h3',
@@ -64,7 +64,7 @@ const ExperienceSection = () => {
         exp.role
       ),
       React.createElement(
-        'div',
+        'p',
         { className: 'text-sm text-gray-600 dark:text-gray-400 mb-3' },
         `${exp.company} | ${exp.period}`
       ),
@@ -82,7 +82,7 @@ const ExperienceSection = () => {
             {
               key: tech,
               className:
-                'px-2.5 py-1.5 bg-blue-100 text-blue-800 dark:bg-blue-900/30 dark:text-blue-200 rounded-full text-xs font-medium'
+                'px-2.5 py-1 bg-blue-100 text-blue-800 dark:bg-blue-900/40 dark:text-blue-200 rounded-full text-xs font-medium'
             },
             tech
           )
@@ -91,63 +91,40 @@ const ExperienceSection = () => {
     );
   };
 
+  // Main section layout
   return React.createElement(
     'section',
     {
       id: 'experience',
-      className: 'py-20 bg-gray-100 dark:bg-gray-900 transition-colors duration-300 relative overflow-hidden'
+      className: 'py-20 bg-gray-100 dark:bg-gray-800 transition-colors duration-300'
     },
-    // subtle background pattern
-    React.createElement('div', {
-      className: 'absolute inset-0 opacity-5 dark:opacity-10 pointer-events-none z-0',
-      style: {
-        backgroundImage: "url('data:image/svg+xml,%3Csvg width=\\'60\\' height=\\'60\\' viewBox=\\'0 0 60 60\\' xmlns=\\'http://www.w3.org/2000/svg\\'%3E%3Cg fill=\\'none\\' fill-rule=\\'evenodd\\'%3E%3Cg fill=\\'%233b82f6\\' fill-opacity=\\'0.4\\'%3E%3Cpath d=\\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')"
-      }
-    }),
     React.createElement(
       'div',
-      { className: 'container mx-auto px-4 relative z-10' },
-      // Header Section
+      { className: 'container mx-auto px-4' },
+      // Section Header (like ResearchSection)
       React.createElement(
         'div',
-        { className: 'text-center mb-16 fade-in relative z-20' },
+        { className: 'text-center mb-16 fade-in' },
         React.createElement(
           'h2',
-          { className: 'text-3xl md:text-4xl font-bold mb-4 text-gray-900 dark:text-white text-gradient' },
+          { className: 'text-3xl md:text-4xl font-bold mb-4 text-gray-900 dark:text-white' },
           'Professional Experience'
         ),
-        React.createElement('div', {
-          className:
-            'w-24 h-1.5 bg-gradient-to-r from-blue-600 via-yellow-500 to-indigo-600 dark:from-blue-400 dark:via-yellow-400 dark:to-indigo-400 mx-auto mb-6 rounded-full'
-        }),
+        React.createElement(
+          'div',
+          { className: 'w-24 h-1.5 bg-gradient-to-r from-blue-600 via-yellow-500 to-indigo-600 dark:from-blue-400 dark:via-yellow-400 dark:to-indigo-400 mx-auto mb-6 rounded-full' }
+        ),
         React.createElement(
           'p',
-          {
-            className:
-              'max-w-2xl mx-auto text-lg text-gray-700 dark:text-gray-300 parallax mb-16 text-center',
-            'data-speed': '0.05'
-          },
+          { className: 'max-w-2xl mx-auto text-lg text-gray-700 dark:text-gray-300' },
           'A timeline of my academic and industry experience across machine learning, data science, and AI engineering.'
         )
       ),
-      // Cards Grid
+      // Grid Cards
       React.createElement(
         'div',
-        { className: 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-4 relative z-10' },
-        experiences.map((exp, index) =>
-          React.createElement(
-            'div',
-            {
-              key: exp.id,
-              className: 'stagger-item transform transition-all duration-500',
-              style: {
-                animationDelay: `${index * 100}ms`,
-                transform: 'translateY(0) scale(1)'
-              }
-            },
-            ExperienceCard(exp)
-          )
-        )
+        { className: 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8' },
+        experiences.map(exp => React.createElement(ExperienceCard, { key: exp.id, ...exp }))
       )
     )
   );
