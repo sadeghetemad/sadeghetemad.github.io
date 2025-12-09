@@ -195,8 +195,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const titles = [
       'Senior Machine Learning Engineer',
       'Senior Data Scientist',
-      'Multimodal AI & Biomedical Research Engineer',
-      'AI Team Lead'
+      'AI Tech Lead'
     ];
     
     let currentIndex = 0;

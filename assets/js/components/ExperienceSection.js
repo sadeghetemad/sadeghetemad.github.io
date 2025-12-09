@@ -5,7 +5,7 @@ const ExperienceSection = () => {
   const experiences = [
     {
       id: 1,
-      role: "Research Associate – Multimodal AI in Biomedical Research",
+      role: "Senior Data Scientist – Multimodal AI in Biomedical Research",
       company: "Teesside University, Middlesbrough, UK",
       period: "Jul 2025 – Present",
       description:
@@ -14,7 +14,7 @@ const ExperienceSection = () => {
     },
     {
       id: 2,
-      role: "AI Engineering Manager",
+      role: "AI Tech Lead",
       company: "Snapp!, Tehran, Iran",
       period: "Jul 2024 – Jul 2025",
       description:
@@ -25,7 +25,7 @@ const ExperienceSection = () => {
       id: 3,
       role: "Senior Data Scientist and ML Engineer",
       company: "Snapp!, Tehran, Iran",
-      period: "May 2020 – May 2022",
+      period: "May 2020 – July 2024",
       description:
         "Developed large-scale traffic forecasting and routing optimization models using spatial-temporal machine learning to improve ETA accuracy. Designed pipelines to process billions of GPS records for better mobility insights.",
       technologies: ["Python", "XGBoost", "LightGBM", "Scikit-learn", "Pandas", "Time-Series"]
