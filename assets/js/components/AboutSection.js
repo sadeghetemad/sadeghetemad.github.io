@@ -31,20 +31,30 @@ const AboutSection = () => {
         React.createElement(
           'div',
           { className: 'fade-in' },
-          React.createElement(
+         React.createElement(
             'p',
             { className: 'text-lg text-gray-700 dark:text-gray-300 mb-6 text-justify' },
-            'I am Sadegh Etemad, a Machine Learning Researcher and Multimodal AI Engineer with over seven years of experience bridging academic research and large-scale industry applications. I hold a Ph.D. in Artificial Intelligence from Amirkabir University of Technology, where my work focused on statistical modeling and signal processing in computer vision. Over the years, I have combined a deep theoretical foundation with practical engineering experience, exploring how data, computation, and biology can converge to create intelligent systems that drive discovery and impact.'
+            'I’m Sadegh Etemad, a Senior Machine Learning Engineer and hands-on AI Tech Lead with over 7 years of experience building, deploying, and owning production-grade ML and AI systems at scale. My background combines strong ML fundamentals with practical engineering, focused on shipping systems that are reliable, observable, and maintainable in real-world environments.'
           ),
           React.createElement(
             'p',
             { className: 'text-lg text-gray-700 dark:text-gray-300 mb-6 text-justify' },
-            'Before joining academia in the UK, I worked at Snapp!, Iran’s leading ride-hailing and mobility platform. There, I led a team of data scientists and engineers developing ETA (Estimated Time of Arrival) prediction models and high-performance distributed systems that supported more than 5 million daily trips. My contributions included designing spatio-temporal ML pipelines, integrating real-time traffic and map data, and deploying large-scale machine learning models to improve ride allocation efficiency and travel time accuracy. This experience taught me how to scale AI solutions for dynamic, high-volume environments where precision and reliability directly impact user experience.'
+            'Previously, at Snapp! (Iran’s largest ride-hailing and mobility platform), I led and scaled a Map ML team while remaining hands-on in model development and production debugging. I owned key technical decisions for traffic prediction and ETA systems supporting millions of daily trips, designing spatio-temporal ML pipelines, integrating real-time traffic and map signals, and deploying low-latency ML services where accuracy and reliability directly impact user experience and operational efficiency.'
           ),
           React.createElement(
             'p',
             { className: 'text-lg text-gray-700 dark:text-gray-300 mb-6 text-justify' },
-            'Currently, I am a Research Associate at Teesside University, working on multimodal AI applications in biomedical research. My projects involve integrating spatial transcriptomics, single-cell imaging, and fluxomics data using deep learning and statistical modeling to uncover cellular behavior and disease mechanisms, particularly in cancer. My goal is to build intelligent systems that connect molecular data with visual and spatial context, accelerating discoveries in precision medicine and computational biology.'
+            'More recently, I led the development of LLM-based and RAG-powered systems in the education domain, building AI features for large-scale exam preparation. This included designing retrieval pipelines over structured textbook content, multi-chain prompt architectures for question answering and content generation, and collaborating closely with engineering teams to productionize AI capabilities for real users.'
+          ),
+          React.createElement(
+            'p',
+            { className: 'text-lg text-gray-700 dark:text-gray-300 mb-6 text-justify' },
+            'I currently work as a Senior Research Engineer at Teesside University, applying an industry mindset to multimodal AI in biomedical applications. I build deep learning pipelines that integrate imaging, spatial transcriptomics, and single-cell data, with a focus on scalable ML system design and multimodal representation learning that can move beyond prototypes toward real-world deployment.'
+          ),
+          React.createElement(
+            'p',
+            { className: 'text-lg text-gray-700 dark:text-gray-300 mb-6 text-justify' },
+            'Across roles, I specialize in bridging research-level models with production constraints, leading teams, owning high-stakes technical decisions, and delivering AI systems that perform under real-world scale, latency, and reliability requirements.'
           ),
           React.createElement(
             'div',

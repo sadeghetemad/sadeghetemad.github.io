@@ -15,7 +15,7 @@ const ExperienceSection = () => {
 
   {
     id: 2,
-    role: "AI Tech Lead – LLM & RAG Systems (EdTech)",
+    role: "AI Tech Lead (Hands-on) – LLM & RAG Systems (EdTech)",
     company: "EdTech-Wallex, Tehran, Iran",
     period: "Jul 2024 – Jul 2025",
     description:
@@ -52,7 +52,7 @@ const ExperienceSection = () => {
       "Designed and deployed algorithmic trading and financial forecasting systems using machine learning and quantitative models. Built LSTM- and tree-based models for price prediction and trend detection, contributing to automated decision-making pipelines handling large-scale financial time-series data.",
     technologies: ["Python", "LSTM", "XGBoost", "Pandas", "NumPy"]
   },
-  
+
   {
     id: 6,
     role: "Machine Learning Engineer",
