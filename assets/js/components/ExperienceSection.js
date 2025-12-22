@@ -3,51 +3,65 @@
 // Experience Section Component
 const ExperienceSection = () => {
   const experiences = [
-    {
-      id: 1,
-      role: "Senior Data Scientist – Multimodal AI in Biomedical Research",
-      company: "Teesside University, Middlesbrough, UK",
-      period: "Jul 2025 – Present",
-      description:
-        "Working on multimodal AI applications in cancer research, integrating spatial transcriptomics, single-cell imaging, and fluxomics data using deep learning and statistical modeling to uncover cellular mechanisms and metabolic behaviors.",
-      technologies: ["Python", "PyTorch", "Transformers", "Multimodal AI", "Spatial Transcriptomics", "Fluxomics"]
-    },
-    {
-      id: 2,
-      role: "AI Tech Lead",
-      company: "Snapp!, Tehran, Iran",
-      period: "Jul 2024 – Jul 2025",
-      description:
-        "Led a team of 10 data scientists and engineers building ML pipelines for real-time transportation optimization, ETA prediction, and map intelligence. Designed distributed data architectures and deployed production-level ML systems handling 5M+ daily trips.",
-      technologies: ["Airflow", "Spark", "MLflow", "Kedro", "PostgreSQL", "Kafka", "Python"]
-    },
-    {
-      id: 3,
-      role: "Senior Data Scientist and ML Engineer",
-      company: "Snapp!, Tehran, Iran",
-      period: "May 2020 – July 2024",
-      description:
-        "Developed large-scale traffic forecasting and routing optimization models using spatial-temporal machine learning to improve ETA accuracy. Designed pipelines to process billions of GPS records for better mobility insights.",
-      technologies: ["Python", "XGBoost", "LightGBM", "Scikit-learn", "Pandas", "Time-Series"]
-    },
-    {
-      id: 4,
-      role: "Data Scientist and ML Engineer",
-      company: "Kian Digital, Tehran, Iran",
-      period: "Dec 2018 – May 2020",
-      description:
-        "Developed algorithmic trading and quantitative forecasting models integrating statistical and deep learning approaches. Implemented trend detection and portfolio optimization strategies for financial markets.",
-      technologies: ["Python", "LSTM", "Finance", "Time-Series", "Quantitative Modeling"]
-    },
-    {
-      id: 5,
-      role: "Data Scientist and ML Engineer",
-      company: "Digikala, Tehran, Iran",
-      period: "Jan 2018 – Dec 2018",
-      description:
-        "Built RFM-based customer segmentation and personalization models, providing data-driven insights for marketing and user engagement. Enhanced retention strategies through clustering and behavioral analytics.",
-      technologies: ["Python", "RFM", "K-Means", "Data Mining", "Business Intelligence"]
-    }
+   {
+    id: 1,
+    role: "Senior Research Engineer – Multimodal AI Systems",
+    company: "Teesside University, Middlesbrough, UK",
+    period: "Jul 2025 – Present",
+    description:
+      "Designed and implemented end-to-end multimodal ML pipelines combining histopathology images, spatial transcriptomics, and metabolic data for cancer analysis. Built deep learning models and large-scale single-cell processing pipelines, enabling scalable analysis of datasets with 100k+ cells per study and improving model interpretability for downstream biomedical decision-making.",
+    technologies: ["PyTorch", "Transformers", "Scanpy", "Python", "NumPy", "Pandas"]
+  },
+
+  {
+    id: 2,
+    role: "AI Tech Lead – LLM & RAG Systems (EdTech)",
+    company: "EdTech-Wallex, Tehran, Iran",
+    period: "Jul 2024 – Jul 2025",
+    description:
+      "Led the architecture and development of LLM-powered educational platforms for national university entrance exam (Konkur) preparation. Designed and owned RAG pipelines over large-scale biology textbooks, enabling personalized question answering and content generation for 100k+ active users. Reduced content generation time from days to minutes and significantly increased student engagement and retention.",
+    technologies: ["LLMs", "RAG", "LangChain", "Vector Databases", "Python", "FastAPI"]
+  },
+
+  {
+    id: 3,
+    role: "AI Tech Lead (Hands-on)",
+    company: "Snapp!, Tehran, Iran",
+    period: "Jan 2023 – Jul 2024",
+    description:
+      "Led and scaled the Map ML team (10+ ML engineers and data scientists) while remaining hands-on in model development and production debugging. Owned ML architecture and decision-making for traffic prediction and ETA systems serving 5M+ daily trips. Improved ETA accuracy by ~10% and reduced prediction latency by ~30%, directly impacting user experience and operational efficiency.",
+    technologies: ["Spark", "Airflow", "MLflow", "Kedro", "Kafka", "PostgreSQL", "Python"]
+  },
+
+  {
+    id: 4,
+    role: "Senior Machine Learning Engineer",
+    company: "Snapp!, Tehran, Iran",
+    period: "May 2020 – Jan 2023",
+    description:
+      "Built and owned large-scale traffic forecasting and routing ML pipelines processing billions of GPS data points. Applied time-series, spatial, and graph-based models to improve ETA reliability and routing decisions. Deployed and monitored production ML services supporting millions of daily users with strict latency and reliability constraints.",
+    technologies: ["Python", "Spark", "Scikit-learn", "XGBoost", "Kafka", "Redis"]
+  },
+
+  {
+    id: 5,
+    role: "Machine Learning Engineer",
+    company: "Kian Digital, Tehran, Iran",
+    period: "Dec 2018 – May 2020",
+    description:
+      "Designed and deployed algorithmic trading and financial forecasting systems using machine learning and quantitative models. Built LSTM- and tree-based models for price prediction and trend detection, contributing to automated decision-making pipelines handling large-scale financial time-series data.",
+    technologies: ["Python", "LSTM", "XGBoost", "Pandas", "NumPy"]
+  },
+  
+  {
+    id: 6,
+    role: "Machine Learning Engineer",
+    company: "Digikala, Tehran, Iran",
+    period: "Jan 2018 – Dec 2018",
+    description:
+      "Implemented customer segmentation and personalization pipelines using RFM analysis and clustering models. Delivered ML-driven insights that supported large-scale marketing campaigns and improved targeting efficiency across millions of e-commerce users.",
+    technologies: ["Python", "Scikit-learn", "SQL", "Pandas"]
+  }
   ];
 
   // Card Component
