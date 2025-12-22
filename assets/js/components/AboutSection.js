@@ -221,7 +221,7 @@ const AboutSection = () => {
                       {
                         key: lib,
                         className:
-                          'px-3 py-1 bg-blue-300 text-emerald-800 dark:bg-emerald-900 dark:text-emerald-200 rounded-full text-sm font-medium'
+                          'px-3 py-1 bg-rose-100 text-rose-800 dark:bg-emerald-900 dark:text-emerald-200 rounded-full text-sm font-medium'
                       },
                       lib
                     )
@@ -284,7 +284,7 @@ const AboutSection = () => {
                       {
                         key: tool,
                         className:
-                          'px-3 py-1 bg-cyan-100 text-cyan-800 dark:bg-cyan-900 dark:text-cyan-200 rounded-full text-sm font-medium'
+                          'px-3 py-1 bg-sky-100 text-sky-800 dark:bg-cyan-900 dark:text-cyan-200 rounded-full text-sm font-medium'
                       },
                       tool
                     )
@@ -380,7 +380,7 @@ const AboutSection = () => {
                       {
                         key: tool,
                         className:
-                          'px-3 py-1 bg-rose-100 text-rose-800 dark:bg-rose-900 dark:text-rose-200 rounded-full text-sm font-medium'
+                          'px-3 py-1 bg-fuchsia-100 text-fuchsia-800 dark:bg-rose-900 dark:text-rose-200 rounded-full text-sm font-medium'
                       },
                       tool
                     )
