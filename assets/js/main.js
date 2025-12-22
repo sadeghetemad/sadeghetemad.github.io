@@ -194,7 +194,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (titleRotator) {
     const titles = [
       'Senior Machine Learning Engineer',
-      'Senior Data Scientist',
+      'Senior AI Engineer',
       'AI Tech Lead'
     ];
     
