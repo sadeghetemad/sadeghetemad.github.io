@@ -221,7 +221,7 @@ const AboutSection = () => {
                       {
                         key: lib,
                         className:
-                          'px-3 py-1 bg-emerald-100 text-emerald-800 dark:bg-emerald-900 dark:text-emerald-200 rounded-full text-sm font-medium'
+                          'px-3 py-1 bg-emerald-300 text-emerald-800 dark:bg-emerald-900 dark:text-emerald-200 rounded-full text-sm font-medium'
                       },
                       lib
                     )

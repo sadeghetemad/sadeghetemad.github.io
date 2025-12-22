@@ -53,7 +53,7 @@ const HeroSection = () => {
           React.createElement(
             'p',
             { className: 'text-lg text-gray-700 dark:text-gray-300 mb-6 max-w-2xl parallax text-justify', 'data-speed': '0.1' },
-            'Senior Machine Learning Engineer and AI Tech Lead with 7+ years of experience building and scaling production-grade AI systems across transportation, education, and data-driven platforms. Specialized in LLM-based systems, multimodal learning, and end-to-end ML infrastructure, with a strong track record of leading teams and delivering AI solutions that drive measurable business impact..'
+            'Senior Machine Learning Engineer and AI Tech Lead with 7+ years of experience building and scaling production-grade AI systems across transportation, education, and data-driven platforms. Specialized in LLM-based systems, multimodal learning, and end-to-end ML infrastructure, with a strong track record of leading teams and delivering AI solutions that drive measurable business impact.'
           ),
           React.createElement(
             'div',
