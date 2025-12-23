@@ -221,7 +221,7 @@ const AboutSection = () => {
                       {
                         key: lib,
                         className:
-                          'px-3 py-1 bg-rose-200 text-rose-800 dark:bg-emerald-900 dark:text-emerald-200 rounded-full text-sm font-medium'
+                          'px-3 py-1 bg-yellow-100 text-yellow-800 dark:bg-emerald-900 dark:text-emerald-200 rounded-full text-sm font-medium'
                       },
                       lib
                     )
@@ -284,7 +284,7 @@ const AboutSection = () => {
                       {
                         key: tool,
                         className:
-                          'px-3 py-1 bg-sky-100 text-sky-800 dark:bg-cyan-900 dark:text-cyan-200 rounded-full text-sm font-medium'
+                          'px-3 py-1 bg-blue-100 text-blue-800 dark:bg-cyan-900 dark:text-cyan-200 rounded-full text-sm font-medium'
                       },
                       tool
                     )
@@ -315,7 +315,7 @@ const AboutSection = () => {
                       {
                         key: tool,
                         className:
-                          'px-3 py-1 bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-200 rounded-full text-sm font-medium'
+                          'px-3 py-1 bg-green-100 text-green-800 dark:bg-yellow-900 dark:text-yellow-200 rounded-full text-sm font-medium'
                       },
                       tool
                     )
@@ -349,7 +349,7 @@ const AboutSection = () => {
                       {
                         key: tool,
                         className:
-                          'px-3 py-1 bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-200 rounded-full text-sm font-medium'
+                          'px-3 py-1 bg-yellow-100 text-yellow-800 dark:bg-purple-900 dark:text-purple-200 rounded-full text-sm font-medium'
                       },
                       tool
                     )
@@ -380,7 +380,7 @@ const AboutSection = () => {
                       {
                         key: tool,
                         className:
-                          'px-3 py-1 bg-fuchsia-100 text-fuchsia-800 dark:bg-rose-900 dark:text-rose-200 rounded-full text-sm font-medium'
+                          'px-3 py-1 bg-indigo-100 text-indigo-800 dark:bg-rose-900 dark:text-rose-200 rounded-full text-sm font-medium'
                       },
                       tool
                     )
@@ -415,7 +415,7 @@ const AboutSection = () => {
                       {
                         key: db,
                         className:
-                          'px-3 py-1 bg-sky-100 text-sky-800 dark:bg-sky-900 dark:text-sky-200 rounded-full text-sm font-medium'
+                          'px-3 py-1 bg-blue-100 text-blue-800 dark:bg-sky-900 dark:text-sky-200 rounded-full text-sm font-medium'
                       },
                       db
                     )
@@ -449,7 +449,7 @@ const AboutSection = () => {
                       {
                         key: tool,
                         className:
-                          'px-3 py-1 bg-teal-100 text-teal-800 dark:bg-teal-900 dark:text-teal-200 rounded-full text-sm font-medium'
+                          'px-3 py-1 bg-green-100 text-green-800 dark:bg-teal-900 dark:text-teal-200 rounded-full text-sm font-medium'
                       },
                       tool
                     )
@@ -483,7 +483,7 @@ const AboutSection = () => {
                       {
                         key: item,
                         className:
-                          'px-3 py-1 bg-neutral-100 text-neutral-800 dark:bg-neutral-800 dark:text-neutral-200 rounded-full text-sm font-medium'
+                          'px-3 py-1 bg-yellow-100 text-yellow-800 dark:bg-neutral-800 dark:text-neutral-200 rounded-full text-sm font-medium'
                       },
                       item
                     )
