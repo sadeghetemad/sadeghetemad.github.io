@@ -154,7 +154,7 @@ const ResearchSection = () => {
             React.createElement(
               'span',
               { className: 'bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 px-3 py-1 rounded-full text-sm font-medium' },
-              'Citations: 2'
+              'Citations: 3'
             ),
             React.createElement(
               'span',
@@ -264,7 +264,7 @@ const ResearchSection = () => {
             React.createElement(
               'span',
               { className: 'bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 px-3 py-1 rounded-full text-sm font-medium' },
-              'Citations: 104'
+              'Citations: 108'
             ),
             React.createElement(
               'span',
