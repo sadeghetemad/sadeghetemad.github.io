@@ -3,18 +3,31 @@
 // Experience Section Component
 const ExperienceSection = () => {
   const experiences = [
-   {
+  {
     id: 1,
+    role: "Senior AI Engineer",
+    company: "CPI, United Kingdom",
+    period: "Mar 2026 – Present",
+    description:
+      "Developing Agentic AI and LLM-powered applications for real-world industrial challenges. Designing and deploying multimodal AI solutions across text, image, and structured data, while building scalable AI systems, APIs, and intelligent automation workflows. Applying advanced machine learning and Generative AI techniques to healthcare and cancer research, bridging research innovation with production-ready AI solutions.",
+    technologies: [
+      "LLMs", "Agentic AI", "Generative AI", "Multimodal AI",
+      "AWS", "Python", "PyTorch", "FastAPI", "Transformers",
+      "RAG", "MLOps"
+    ]
+  },
+   {
+    id: 2,
     role: "Senior Research Engineer – Multimodal AI Systems",
     company: "Teesside University, Middlesbrough, UK",
-    period: "Jul 2025 – Present",
+    period: "Jul 2025 – Feb 2026",
     description:
       "Designed and implemented end-to-end multimodal ML pipelines combining histopathology images, spatial transcriptomics, and metabolic data for cancer analysis. Built deep learning models and large-scale single-cell processing pipelines, enabling scalable analysis of datasets with 100k+ cells per study and improving model interpretability for downstream biomedical decision-making.",
     technologies: ["PyTorch", "Transformers", "Scanpy", "Python", "NumPy", "Pandas"]
   },
 
   {
-    id: 2,
+    id: 3,
     role: "AI Tech Lead (Hands-on) – LLM & RAG Systems (EdTech)",
     company: "EdTech-Wallex, Tehran, Iran",
     period: "Jul 2024 – Jul 2025",
@@ -24,7 +37,7 @@ const ExperienceSection = () => {
   },
 
   {
-    id: 3,
+    id: 4,
     role: "AI Tech Lead (Hands-on)",
     company: "Snapp!, Tehran, Iran",
     period: "Jan 2023 – Jul 2024",
@@ -34,7 +47,7 @@ const ExperienceSection = () => {
   },
 
   {
-    id: 4,
+    id: 5,
     role: "Senior Machine Learning Engineer",
     company: "Snapp!, Tehran, Iran",
     period: "May 2020 – Jan 2023",
@@ -44,7 +57,7 @@ const ExperienceSection = () => {
   },
 
   {
-    id: 5,
+    id: 6,
     role: "Machine Learning Engineer",
     company: "Kian Digital, Tehran, Iran",
     period: "Dec 2018 – May 2020",
@@ -54,7 +67,7 @@ const ExperienceSection = () => {
   },
 
   {
-    id: 6,
+    id: 7,
     role: "Machine Learning Engineer",
     company: "Digikala, Tehran, Iran",
     period: "Jan 2018 – Dec 2018",

@@ -34,27 +34,27 @@ const AboutSection = () => {
          React.createElement(
             'p',
             { className: 'text-lg text-gray-700 dark:text-gray-300 mb-6 text-justify' },
-            'I’m Sadegh Etemad, a Senior Machine Learning Engineer and hands-on AI Tech Lead with over 7 years of experience building, deploying, and owning production-grade ML and AI systems at scale. My background combines strong ML fundamentals with practical engineering, focused on shipping systems that are reliable, observable, and maintainable in real-world environments.'
+              'I’m Sadegh Etemad, a Senior AI Engineer and AI Tech Lead with over 8 years of experience building and deploying production-grade AI systems across industry, healthcare, education, transportation, and large-scale digital platforms. My expertise spans Large Language Models (LLMs), Agentic AI, Generative AI, Multimodal AI, MLOps, and AI product development, with a strong focus on delivering reliable, scalable, and business-oriented solutions.'
           ),
           React.createElement(
             'p',
             { className: 'text-lg text-gray-700 dark:text-gray-300 mb-6 text-justify' },
-            'Previously, at Snapp! (Iran’s largest ride-hailing and mobility platform), I led and scaled a Map ML team while remaining hands-on in model development and production debugging. I owned key technical decisions for traffic prediction and ETA systems supporting millions of daily trips, designing spatio-temporal ML pipelines, integrating real-time traffic and map signals, and deploying low-latency ML services where accuracy and reliability directly impact user experience and operational efficiency.'
+             'Currently, I work as a Senior AI Engineer at CPI, developing AI-driven solutions using LLMs, Agentic AI, Generative AI, and advanced machine learning techniques. My work focuses on building intelligent agents, automating complex workflows, and delivering scalable AI systems that solve real-world industrial challenges while creating measurable business value.'
           ),
           React.createElement(
             'p',
             { className: 'text-lg text-gray-700 dark:text-gray-300 mb-6 text-justify' },
-            'More recently, I led the development of LLM-based and RAG-powered systems in the education domain, building AI features for large-scale exam preparation. This included designing retrieval pipelines over structured textbook content, multi-chain prompt architectures for question answering and content generation, and collaborating closely with engineering teams to productionize AI capabilities for real users.'
+            'Prior to CPI, I worked as a Senior Research Engineer at Teesside University, where I developed multimodal AI systems integrating medical imaging, spatial transcriptomics, and single-cell data. My research focused on scalable deep learning pipelines and multimodal representation learning for biomedical applications, bridging scientific innovation with practical deployment.'
           ),
           React.createElement(
             'p',
             { className: 'text-lg text-gray-700 dark:text-gray-300 mb-6 text-justify' },
-            'I currently work as a Senior Research Engineer at Teesside University, applying an industry mindset to multimodal AI in biomedical applications. I build deep learning pipelines that integrate imaging, spatial transcriptomics, and single-cell data, with a focus on scalable ML system design and multimodal representation learning that can move beyond prototypes toward real-world deployment.'
+                'Previously, I led machine learning initiatives at Snapp!, Iran’s largest mobility platform, where I contributed to traffic prediction and ETA systems supporting millions of daily trips. I later joined Wallex-Edtech as AI Tech Lead, leading the development of LLM- and RAG-powered educational AI products and building scalable AI solutions for exam preparation, content generation, and personalized learning experiences.'
           ),
           React.createElement(
             'p',
             { className: 'text-lg text-gray-700 dark:text-gray-300 mb-6 text-justify' },
-            'Across roles, I specialize in bridging research-level models with production constraints, leading teams, owning high-stakes technical decisions, and delivering AI systems that perform under real-world scale, latency, and reliability requirements.'
+            'Across my career, I have specialized in transforming cutting-edge AI research into production-ready systems, leading technical teams, making high-impact engineering decisions, and delivering AI products that perform reliably under real-world scale, latency, and business constraints.'
           ),
           React.createElement(
             'div',
