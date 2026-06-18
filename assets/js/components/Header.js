@@ -63,7 +63,7 @@ const Header = ({ darkMode, toggleDarkMode }) => {
             React.createElement(
               'p',
               { className: 'text-xs text-gray-600 dark:text-gray-400 hidden sm:block' },
-              'Machine Learning Engineer'
+              'Senior AI & Machine Learning Engineer'
             )
           )
         )

@@ -47,7 +47,7 @@ const Footer = () => {
           React.createElement(
             'p',
             { className: 'text-gray-400 mb-4 text-justify' },
-            'Senior ML Engineer & AI Tech Lead focused on scalable, reliable AI systems in production.'
+            'Senior AI Engineer & AI Tech Lead focused on scalable, reliable AI systems in production.'
           ),
           React.createElement(
             'p',

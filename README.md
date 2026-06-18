@@ -1,13 +1,13 @@
 # 👋 Hi, I'm **Sadegh Etemad**
 
-🎯 **Senior Data Scientist | Machine Learning Engineer | AI Team Lead**  
+🎯 **Senior AI Engineer | Machine Learning Engineer | AI Team Lead**  
 📍 United Kingdom  
 📧 Sadegh.Etemad@gmail.com  
 
 ---
 
 ### 🚀 About Me
-I'm a **Senior Data Scientist** and **AI Team Lead** with 7+ years of experience designing, building, and deploying scalable AI systems across **transportation**, **finance**, **e-commerce**, and **biomedical research**.  
+I'm a **Senior AI Engineer** and **AI Team Lead** with 8+ years of experience designing, building, and deploying scalable AI systems across **transportation**, **finance**, **e-commerce**, and **biomedical research**.  
 
 Currently, I’m working at **Teesside University** on **Multimodal AI for Biomedical and Cancer Research**, integrating transcriptomic, spatial, and fluxomic data to accelerate discovery in precision medicine.  
 
