@@ -655,3 +655,16 @@ section {
   background: linear-gradient(to right, #3b82f6 var(--scroll), transparent 0);
   transition: background-position 0.2s ease;
 }
+
+/* Google Scholar icon styling */
+.scholar-logo {
+  object-fit: contain;
+  transition: filter 0.25s ease, transform 0.25s ease, opacity 0.25s ease;
+  opacity: 0.86;
+}
+
+a:hover .scholar-logo {
+  filter: invert(38%) sepia(93%) saturate(1832%) hue-rotate(204deg) brightness(96%) contrast(96%);
+  transform: translateY(-2px);
+  opacity: 1;
+}
