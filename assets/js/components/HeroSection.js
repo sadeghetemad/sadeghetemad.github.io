@@ -2,30 +2,50 @@
 
 // Hero Section Component
 const HeroSection = () => {
+  const socialItems = [
+    { href: 'https://github.com/sadeghetemad', icon: 'fab fa-github', label: 'GitHub' },
+    { href: 'https://www.linkedin.com/in/sadegh-etemad/', icon: 'fab fa-linkedin', label: 'LinkedIn' },
+    { href: 'https://scholar.google.com/citations?user=oIMDgJsAAAAJ&hl=en', image: './assets/images/google-scholar.png', label: 'Google Scholar' },
+    { href: './assets/Sadegh_Etemad_Resume.pdf', icon: 'far fa-file-pdf', label: 'Resume', download: true }
+  ];
+
+  const SocialIcon = (item) => {
+    return React.createElement(
+      'a',
+      {
+        key: item.label,
+        href: item.href,
+        target: item.download ? '_self' : '_blank',
+        rel: item.download ? undefined : 'noopener noreferrer',
+        download: item.download ? 'Sadegh_Etemad_Resume.pdf' : undefined,
+        className: 'text-gray-700 hover:text-blue-600 transition-colors contact-link pulse flex items-center justify-center',
+        title: item.label,
+        'aria-label': item.label
+      },
+      item.image
+        ? React.createElement('img', { src: item.image, alt: item.label, className: 'scholar-logo w-7 h-7' })
+        : React.createElement('i', { className: `${item.icon} text-2xl` })
+    );
+  };
+
   return React.createElement(
-    'section', 
-    { 
-      id: 'hero',
-      className: 'min-h-screen flex items-center py-20 bg-gradient-to-br from-blue-50 via-amber-50 to-indigo-100 dark:from-gray-900 dark:via-gray-800 dark:to-gray-800 transition-colors duration-300 relative overflow-hidden'
-    },
-    // Background particles for dynamic effect - now with yellow particles too
+    'section',
+    { id: 'hero', className: 'min-h-screen flex items-center py-20 bg-gradient-to-br from-blue-50 via-white to-indigo-100 transition-colors duration-300 relative overflow-hidden' },
     React.createElement(
       'div',
       { className: 'absolute inset-0 overflow-hidden pointer-events-none' },
-      Array.from({ length: 20 }).map((_, i) => 
-        React.createElement('div', {
-          key: i,
-          className: `absolute rounded-full ${i % 2 === 0 ? 'bg-blue-500 dark:bg-blue-400' : 'bg-yellow-500 dark:bg-yellow-400'} opacity-10`,
-          style: {
-            width: `${Math.random() * 100 + 50}px`,
-            height: `${Math.random() * 100 + 50}px`,
-            left: `${Math.random() * 100}%`,
-            top: `${Math.random() * 100}%`,
-            animationDuration: `${Math.random() * 20 + 10}s`,
-            animationDelay: `${Math.random() * 5}s`,
-          },
-        })
-      )
+      Array.from({ length: 20 }).map((_, i) => React.createElement('div', {
+        key: i,
+        className: `absolute rounded-full ${i % 2 === 0 ? 'bg-blue-500' : 'bg-indigo-500'} opacity-10`,
+        style: {
+          width: `${Math.random() * 100 + 50}px`,
+          height: `${Math.random() * 100 + 50}px`,
+          left: `${Math.random() * 100}%`,
+          top: `${Math.random() * 100}%`,
+          animationDuration: `${Math.random() * 20 + 10}s`,
+          animationDelay: `${Math.random() * 5}s`
+        }
+      }))
     ),
     React.createElement(
       'div',
@@ -33,106 +53,42 @@ const HeroSection = () => {
       React.createElement(
         'div',
         { className: 'flex flex-col-reverse md:flex-row items-center justify-between gap-12' },
-        // Text Content
         React.createElement(
           'div',
           { className: 'w-full md:w-1/2 fade-in' },
           React.createElement(
             'h1',
-            { className: 'text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-gray-900 dark:text-white leading-tight' },
+            { className: 'text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-gray-900 leading-tight' },
             React.createElement('span', { className: 'bg-gradient-blue-yellow bg-clip-text text-transparent block' }, 'Sadegh Etemad')
           ),
           React.createElement(
             'div',
             { className: 'h-14 mb-4 relative overflow-hidden title-animation-container' },
-            React.createElement('div', { 
-              id: 'title-rotator',
-              className: 'text-xl md:text-2xl font-bold text-gray-800 dark:text-gray-200',
-            })
+            React.createElement('div', { id: 'title-rotator', className: 'text-xl md:text-2xl font-bold text-gray-800' })
           ),
           React.createElement(
             'p',
-            { className: 'text-lg text-gray-700 dark:text-gray-300 mb-6 max-w-2xl parallax text-justify', 'data-speed': '0.1' },
-            'Senior AI Engineer and AI Tech Lead with 8+ years of experience building production-grade AI systems. Specialized in LLMs, Agentic AI, Generative AI, and Multimodal AI, delivering scalable solutions across healthcare, education, transportation, and digital platforms.'
+            { className: 'text-lg text-gray-700 mb-6 max-w-2xl parallax text-justify', 'data-speed': '0.1' },
+            'Senior AI/ML Engineer and Technical Lead with 8+ years of experience building production-grade AI systems. Specialized in LLMs, Agentic AI, Generative AI, Multimodal AI, and scalable machine learning platforms across healthcare, education, transportation, and digital products.'
           ),
           React.createElement(
             'div',
             { className: 'flex mt-8 space-x-6 stagger-item' },
-            // GitHub
-            React.createElement(
-              'a', 
-              { 
-                href: 'https://github.com/sadeghetemad',
-                target: '_blank',
-                rel: 'noopener noreferrer',
-                className: 'text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors contact-link pulse'
-              },
-              React.createElement('i', { className: 'fab fa-github text-2xl' })
-            ),
-            // LinkedIn
-            React.createElement(
-              'a', 
-              { 
-                href: 'https://www.linkedin.com/in/sadegh-etemad/',
-                target: '_blank',
-                rel: 'noopener noreferrer',
-                className: 'text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors contact-link pulse'
-              },
-              React.createElement('i', { className: 'fab fa-linkedin text-2xl' })
-            ),
-            // ResearchGate
-            React.createElement(
-              'a', 
-              { 
-                href: 'https://www.researchgate.net/profile/Sadegh-Etemad-2',
-                target: '_blank',
-                rel: 'noopener noreferrer',
-                className: 'text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors contact-link pulse'
-              },
-              React.createElement('i', { className: 'fab fa-researchgate text-2xl' })
-            ),
-            // Google Scholar
-            React.createElement(
-              'a', 
-              { 
-                href: 'https://scholar.google.com/citations?user=oIMDgJsAAAAJ&hl=en',
-                target: '_blank',
-                rel: 'noopener noreferrer',
-                className: 'text-gray-700 hover:text-yellow-500 dark:text-gray-400 dark:hover:text-yellow-400 transition-colors contact-link pulse'
-              },
-              React.createElement('i', { className: 'fas fa-graduation-cap text-2xl' })
-            ),
-            // ORCID
-            React.createElement(
-              'a', 
-              { 
-                href: 'https://orcid.org/0000-0003-0665-7305',
-                target: '_blank',
-                rel: 'noopener noreferrer',
-                className: 'text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors contact-link pulse'
-              },
-              React.createElement('i', { className: 'fab fa-orcid text-2xl' })
-            )
+            socialItems.map(item => React.createElement(SocialIcon, { key: item.label, ...item }))
           )
         ),
-        // Profile Image
         React.createElement(
           'div',
           { className: 'w-full md:w-1/2 flex justify-center fade-in' },
           React.createElement(
             'div',
-            { 
-              className: 'w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 relative rounded-full overflow-hidden border-4 border-white dark:border-gray-800 shadow-xl profile-image hover-3d'
-            },
-            React.createElement(
-              'img',
-              { 
-                src: './assets/images/profile.jpg',
-                alt: 'Sadegh Etemad',
-                className: 'absolute inset-0 w-full h-full object-cover',
-                onError: 'this.src="https://via.placeholder.com/400x400?text=Sadegh+Etemad"'
-              }
-            )
+            { className: 'w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 relative rounded-full overflow-hidden border-4 border-white shadow-xl profile-image hover-3d' },
+            React.createElement('img', {
+              src: './assets/images/profile.jpg',
+              alt: 'Sadegh Etemad',
+              className: 'absolute inset-0 w-full h-full object-cover',
+              onError: 'this.src="https://via.placeholder.com/400x400?text=Sadegh+Etemad"'
+            })
           )
         )
       )

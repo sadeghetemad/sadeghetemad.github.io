@@ -5,46 +5,20 @@ const root = document.getElementById('root');
 
 // App Component
 const App = () => {
-  const [darkMode, setDarkMode] = React.useState(
-    localStorage.getItem('theme') === 'dark' || 
-    (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches)
-  );
-  
   React.useEffect(() => {
-    if (darkMode) {
-      document.documentElement.classList.add('dark');
-      localStorage.setItem('theme', 'dark');
-    } else {
-      document.documentElement.classList.remove('dark');
-      localStorage.setItem('theme', 'light');
-    }
-  }, [darkMode]);
+    document.documentElement.classList.remove('dark');
+    document.body.classList.remove('dark-mode');
+    localStorage.setItem('theme', 'light');
+  }, []);
 
-  const toggleDarkMode = () => {
-    const newDarkMode = !darkMode;
-    setDarkMode(newDarkMode);
-    
-    // Apply changes directly to ensure immediate visual feedback
-    if (newDarkMode) {
-      document.documentElement.classList.add('dark');
-      document.body.classList.add('dark-mode');
-    } else {
-      document.documentElement.classList.remove('dark');
-      document.body.classList.remove('dark-mode');
-    }
-  };
-  
   return React.createElement(
-    'div', 
+    'div',
     { className: 'min-h-screen' },
-    React.createElement(Header, { darkMode, toggleDarkMode }),
+    React.createElement(Header, null),
     React.createElement(HeroSection, null),
     React.createElement(AboutSection, null),
     React.createElement(ExperienceSection, null),
-    // React.createElement(BlogSection, null),
-    React.createElement(ResearchSection, null),
-    // Removed SocialSection (Latest Updates) as requested
-    // Removed ContactSection (Get in Touch) as requested
+    React.createElement(ProjectsSection, null),
     React.createElement(Footer, null)
   );
 };
