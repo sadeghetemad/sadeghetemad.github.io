@@ -15,8 +15,8 @@ const ExperienceSection = () => {
     {
       id: 2,
       year: "2025",
-      role: "Senior Research Engineer – Multimodal AI Systems",
-      company: "Teesside University, Middlesbrough, UK",
+      role: "Senior AI Engineer",
+      company: "Teesside University, UK",
       period: "Jul 2025 – Feb 2026",
       description:
         "Developed multimodal AI pipelines for cancer research by combining biomedical imaging, spatial transcriptomics, and metabolic data. Built deep learning workflows supporting cancer detection, biomarker discovery, and model interpretability."
@@ -24,7 +24,7 @@ const ExperienceSection = () => {
     {
       id: 3,
       year: "2024",
-      role: "AI Tech Lead – LLM & RAG Systems",
+      role: "AI Tech Lead",
       company: "EdTech-Wallex, Tehran, Iran",
       period: "Jul 2024 – Jul 2025",
       description:

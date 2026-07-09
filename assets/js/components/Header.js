@@ -7,7 +7,9 @@ const Header = () => {
 
   React.useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
-    window.addEventListener('scroll', handleScroll);
+
+    handleScroll();
+    window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
@@ -46,8 +48,8 @@ const Header = () => {
   return React.createElement(
     'header',
     {
-      className: `fixed w-full z-50 transition-all duration-300 ${
-        scrolled ? 'bg-white/95 backdrop-blur-md shadow-lg py-3' : 'bg-transparent py-5'
+      className: `site-header fixed w-full z-50 transition-all duration-300 ${
+        scrolled ? 'site-header--scrolled py-3' : 'site-header--top py-5'
       }`
     },
     React.createElement(

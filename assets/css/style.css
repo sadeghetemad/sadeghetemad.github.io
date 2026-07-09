@@ -668,3 +668,29 @@ a:hover .scholar-logo {
   transform: translateY(-2px);
   opacity: 1;
 }
+
+/* Navbar readability fix: add this to the end of assets/css/style.css */
+.site-header {
+  background: transparent;
+  border-bottom: 1px solid transparent;
+  transform: translateZ(0);
+}
+
+.site-header--scrolled {
+  background: rgba(255, 255, 255, 0.92);
+  -webkit-backdrop-filter: saturate(180%) blur(18px);
+  backdrop-filter: saturate(180%) blur(18px);
+  border-bottom-color: rgba(148, 163, 184, 0.28);
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+}
+
+.site-header--top {
+  background: transparent;
+  box-shadow: none;
+}
+
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .site-header--scrolled {
+    background: rgba(255, 255, 255, 0.98);
+  }
+}
