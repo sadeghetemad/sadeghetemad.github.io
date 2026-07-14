@@ -22,7 +22,7 @@ class ScholarFetcher {
       'https://proxy.cors.sh/'
     ];
     
-    this.scholarUrl = `https://scholar.google.com/citations?user=oIMDgJsAAAAJ&hl=en${scholarId}&hl=en`;
+    this.scholarUrl = `https://scholar.google.com/citations?user=${scholarId}&hl=en`;
     this.isLoading = false;
     this.isLoaded = false;
   }

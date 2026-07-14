@@ -5,12 +5,6 @@ const root = document.getElementById('root');
 
 // App Component
 const App = () => {
-  React.useEffect(() => {
-    document.documentElement.classList.remove('dark');
-    document.body.classList.remove('dark-mode');
-    localStorage.setItem('theme', 'light');
-  }, []);
-
   return React.createElement(
     'div',
     { className: 'min-h-screen' },
