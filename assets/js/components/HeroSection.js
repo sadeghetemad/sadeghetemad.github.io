@@ -16,13 +16,16 @@ const HeroSection = () => {
       target: item.download ? '_self' : '_blank',
       rel: item.download ? undefined : 'noopener noreferrer',
       download: item.download ? 'Sadegh_Etemad_Resume.pdf' : undefined,
-      className: 'text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors contact-link flex items-center justify-center',
+      className: 'text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors contact-link flex items-center justify-center' + (item.download ? ' gap-1.5' : ''),
       title: item.label,
       'aria-label': item.label
     },
     item.image
       ? React.createElement('img', { src: item.image, alt: item.label, className: 'scholar-logo w-7 h-7' })
-      : React.createElement('i', { className: item.icon + ' text-2xl' })
+      : React.createElement('i', { className: item.icon + ' text-2xl' }),
+    item.download
+      ? React.createElement('span', { className: 'text-xs font-medium leading-none' }, 'Jul 2026')
+      : null
   );
 
   return React.createElement(
@@ -36,10 +39,12 @@ const HeroSection = () => {
       'div',
       { className: 'absolute inset-0 overflow-hidden pointer-events-none' },
       React.createElement('div', {
-        className: 'absolute top-1/4 left-1/4 w-96 h-96 bg-blue-400 dark:bg-blue-600 rounded-full opacity-10 blur-3xl'
+        className: 'absolute top-1/4 left-1/4 w-96 h-96 rounded-full',
+        style: { background: 'rgba(96,165,250,0.18)', filter: 'blur(80px)' }
       }),
       React.createElement('div', {
-        className: 'absolute bottom-1/4 right-1/4 w-80 h-80 bg-indigo-400 dark:bg-indigo-600 rounded-full opacity-10 blur-3xl'
+        className: 'absolute bottom-1/4 right-1/4 w-80 h-80 rounded-full',
+        style: { background: 'rgba(129,140,248,0.18)', filter: 'blur(80px)' }
       })
     ),
     React.createElement(
